@@ -5,7 +5,7 @@
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 
 <p align="center"><strong>Ingeniería de Software</strong><br>
-Desarrollo de Aplicaciones Open Source <br>
+Aplicaciones Web <br>
 <strong>Profesor:</strong> Velásquez Núñez, Ángel Augusto </p>
 
 <h2 align="center">INFORME</h2>
