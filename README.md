@@ -200,12 +200,133 @@ Insights TB1 (Todos participaron):
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripcion de la Startup
+FreshGuard Technologies es una startup tecnológica enfocada en optimizar la calidad de los alimentos durante su transporte mediante el uso de tecnología de monitoreo en tiempo real. Su producto principal, ColdTrack, es una aplicación que se integra con sensores de temperatura y humedad instalados en las unidades de transporte, permitiendo a las empresas supervisar las condiciones de los productos desde los centros de distribución hasta su destino final. A través de esta solución, los usuarios pueden visualizar datos en tiempo real, recibir alertas ante variaciones críticas y acceder a un registro histórico de cada envío. De esta manera, FreshGuard Technologies busca reducir pérdidas, mejorar la eficiencia logística y garantizar que los alimentos lleguen en condiciones óptimas al consumidor.
+
+- **Nombre de la startup:** FreshGuard Technologies
+
+- **Producto:** ColdTrack
+
+- **Misión:**
+Nuestra misión es garantizar la calidad y seguridad de los alimentos durante su transporte mediante el uso de tecnología de monitoreo en tiempo real, permitiendo a las empresas tomar decisiones rápidas y efectivas para evitar pérdidas y asegurar condiciones óptimas.
+
+- **Visión:**
+Nuestra visión es convertirnos en la solución líder en monitoreo de condiciones de transporte de alimentos en Perú y Latinoamérica, destacando por nuestra innovación, confiabilidad y aporte a la seguridad alimentaria.
+
+- **Valores:**
+Responsabilidad, innovación y confiabilidad.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+   <td style="text-align: center" align="center">
+        <p align="center">
+         Eslander Celis Berrospi - U201911249 
+         <br>
+         <img src="images/foto_Eslander.jpg" alt="Foto Eslander" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+         Soy Eslander, estudiante de Ingeniería de Software. Me considero una persona responsable y comprometida con mis objetivos, con una gran disposición para aprender y mejorar de manera continua. Valoro mucho la ética y el trabajo en equipo, aportando siempre ideas y soluciones para alcanzar resultados de calidad. Me esfuerzo por mantener un enfoque ordenado en mis tareas y contribuir activamente al desarrollo colectivo. Tengo conocimientos en Python, C++ y HTML, lo que me permite desarrollar soluciones tecnológicas y fortalecer mis habilidades en programación. Estoy motivado a seguir aprendiendo y asumir nuevos retos que me ayuden a crecer tanto profesional como personalmente.
+        </td>
+       
+  </tr>
+  <tr>
+    <td style="text-align: center" align="center">
+        <p align="center">
+        aaaaaaaaaaaa - Uaaaaaaaa  
+         <br>
+         <img src="images/Paulofoto.PNG" alt="Foto" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.
+        </td>
+       
+  </tr>
+  
+
+</table>
+
 ## 1.2. Solution Profile
+ColdTrack es una plataforma digital diseñada para monitorear en tiempo real las condiciones de temperatura y humedad durante el transporte de alimentos, asegurando que estos se mantengan dentro de los rangos adecuados desde los centros de distribución hasta su destino final. El sistema se integra con sensores instalados en las unidades de transporte, los cuales envían datos constantemente a la aplicación, permitiendo a los usuarios visualizar el estado de cada envío en todo momento.
+
+La plataforma genera alertas automáticas cuando se detectan variaciones que podrían comprometer la calidad del producto, facilitando una rápida toma de decisiones para evitar pérdidas. Además, los usuarios pueden acceder a un historial detallado de cada transporte, lo que permite analizar el desempeño logístico y garantizar un mayor control en la cadena de distribución.
+
+Con una interfaz intuitiva y fácil de usar, ColdTrack no solo mejora la supervisión del transporte de alimentos, sino que también incrementa la eficiencia operativa, reduce riesgos y asegura que los productos lleguen en condiciones óptimas al consumidor final.
 
 ### 1.2.1. Antecedentes y problematica
+
+#### 1. What / ¿QUÉ?
+
+##### ¿Cuál es el problema que se busca resolver?  
+El problema es la falta de control y monitoreo en tiempo real de la temperatura y humedad durante el transporte de alimentos, lo que puede generar deterioro en los productos.
+
+##### ¿Qué producto o servicio se propone?  
+Se propone una aplicación llamada ColdTrack que permite monitorear en tiempo real las condiciones ambientales mediante sensores.
+
+##### ¿Para qué se utiliza esta solución?  
+Se utiliza para garantizar que los alimentos se mantengan en condiciones óptimas durante su traslado.
+
+---
+
+#### 2. When / ¿CUÁNDO?
+
+##### ¿Cuándo ocurre el problema?  
+El problema ocurre durante el transporte de alimentos desde los centros de distribución hasta su destino final.
+
+##### ¿En qué momento del proceso es más crítico?  
+Es más crítico durante trayectos largos o cuando ocurren fallas en los sistemas de refrigeración sin ser detectadas oportunamente.
+
+---
+
+#### 3. Where / ¿DÓNDE?
+
+##### ¿Dónde surge el problema?  
+El problema surge en el proceso logístico de distribución de alimentos, específicamente en las unidades de transporte.
+
+##### ¿Dónde se utilizará la solución?  
+La solución será utilizada en camiones y sistemas de transporte que trasladan alimentos desde centros de distribución.
+
+---
+
+#### 4. Who / ¿QUIÉN?
+
+##### ¿Quiénes están involucrados en la situación?  
+Están involucradas empresas distribuidoras de alimentos, operadores logísticos, conductores y el equipo de desarrollo de la startup.
+
+##### ¿Quiénes son los usuarios del producto?  
+Los usuarios principales son las empresas de distribución, supervisores logísticos y personal encargado del control de calidad.
+
+---
+
+#### 5. Why / ¿POR QUÉ?
+
+##### ¿Por qué ocurre este problema?  
+Ocurre debido a la falta de herramientas tecnológicas que permitan monitorear en tiempo real las condiciones ambientales durante el transporte.
+
+##### ¿Por qué es importante resolverlo?  
+Porque impacta directamente en la calidad de los alimentos, genera pérdidas económicas y puede afectar la salud de los consumidores.
+
+---
+
+#### 6. How / ¿CÓMO?
+
+##### ¿Cómo se llevará a cabo la solución?  
+Se implementará una aplicación conectada a sensores que registran temperatura y humedad en tiempo real.
+
+##### ¿Cómo funcionará en la práctica?  
+Los sensores enviarán datos constantemente a la app, la cual permitirá visualizar condiciones, generar alertas y almacenar un historial de cada transporte.
+
+---
+
+#### 7. How Much / ¿CUÁNTO?
+
+##### ¿Cuánto impacta el problema?  
+El problema puede generar pérdidas frecuentes de productos debido a condiciones inadecuadas durante el transporte.
+
+##### ¿Cuánto costará implementar la solución?  
+Para el prototipo, el costo será bajo, pero en una implementación real implicará inversión en sensores, infraestructura tecnológica y mantenimiento.
 
 ### 1.2.2. Lean UX Process
 
@@ -218,6 +339,80 @@ Insights TB1 (Todos participaron):
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos Objetivo
+
+Para ColdTrack, se identifican dos segmentos objetivo principales que utilizan la aplicación para monitorear las condiciones de temperatura y humedad durante el transporte de alimentos.
+
+---
+
+### Segmento Objetivo 1: Personal de Logística y Operaciones
+
+Este segmento está compuesto por los trabajadores encargados de supervisar y gestionar el transporte de alimentos dentro de una empresa.
+
+**Aspectos Demográficos:**
+
+- Edad: 25 a 50 años  
+- Género: Todos los géneros  
+- Nivel educativo: Técnico o universitario  
+- Ocupación: Personal de logística, operaciones o control de calidad  
+
+**Aspectos Geográficos:**
+
+- Ubicación: Perú (principalmente zonas urbanas)  
+- Lugar de uso: Oficinas y centros de distribución  
+
+**Aspectos Psicográficos:**
+
+- Buscan tener control y visibilidad sobre los envíos.  
+- Valoran herramientas que les permitan tomar decisiones rápidas.  
+- Están interesados en mejorar la eficiencia del transporte.  
+
+**Necesidades:**
+
+- Monitorear temperatura y humedad en tiempo real.  
+- Recibir alertas ante fallas.  
+- Tener registro histórico de los envíos.  
+
+**Beneficios clave:**
+
+- Mejor control del proceso logístico.  
+- Reducción de pérdidas de productos.  
+- Mayor eficiencia en la operación.  
+
+---
+
+### Segmento Objetivo 2: Personal de Transporte
+
+Este segmento está compuesto por las personas encargadas de trasladar los alimentos durante las rutas de distribución.
+
+**Aspectos Demográficos:**
+
+- Edad: 25 a 55 años  
+- Género: Todos los géneros  
+- Nivel educativo: Secundaria completa o técnico  
+- Ocupación: Conductores o personal de transporte  
+
+**Aspectos Geográficos:**
+
+- Ubicación: Perú  
+- Lugar de uso: Durante el transporte (en ruta)  
+
+**Aspectos Psicográficos:**
+
+- Se enfocan en cumplir correctamente con la entrega.  
+- Prefieren herramientas simples y fáciles de usar.  
+- Valoran recibir información clara y directa.  
+
+**Necesidades:**
+
+- Recibir alertas sobre cambios en temperatura o humedad.  
+- Saber cuándo actuar ante un problema.  
+- Tener acceso rápido a la información del estado del envío.  
+
+**Beneficios clave:**
+
+- Respuesta rápida ante fallas.  
+- Mayor seguridad en el transporte.  
+- Facilidad de uso durante el trabajo.  
 
 ### Segmento Objetivo 1: Estudiantes Universitarios
 
