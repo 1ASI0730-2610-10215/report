@@ -414,9 +414,6 @@ Este segmento está compuesto por las personas encargadas de trasladar los alime
 - Mayor seguridad en el transporte.  
 - Facilidad de uso durante el trabajo.  
 
-### Segmento Objetivo 1: Estudiantes Universitarios
-
-### Segmento Objetivo 2: Profesores Universitarios
 
 # Capitulo II: Requirements Elicitation & Analysis
 
