@@ -11,10 +11,10 @@ Aplicaciones Web <br>
 <h2 align="center">INFORME</h2>
 <h2 align="center">2026 - 10</h2>
 
-<h3 align="center">Startup: ChabeCode</h3>
+<h3 align="center">Startup: FreshGuard</h3>
 <h3 align="center">1ASI0730-2610-10215</h3>
 
-<p align="center"><strong>Producto: </strong></p>
+<p align="center"><strong>Producto: ColdTrack</strong></p>
 
 <h3 align="center">Team Members:</h3>
 
