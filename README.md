@@ -23,7 +23,7 @@ Aplicaciones Web <br>
 | **Member**                           | **Code**     |
 |--------------------------------------|--------------|
 |Eslander Celis Berrospi      |  U201911249  |
-|         |  U |
+|Gabriel Mendoza Palacios     |  U202416908  |
 |         |  U |
 |        |  U |
 |        |  U  |
@@ -39,6 +39,7 @@ Aplicaciones Web <br>
 | Versión | Fecha       | Autor(es)                                                              | Descripción                                                                                                                                         |
 |---------|-------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0.1     | 30/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo I: Introducción                                                                                                             |
+| 0.2     | 30/04/2026  | Gabriel Mendoza Palacios        | Desarrollo del capítulo II                                                                                  |
 
 
 
@@ -191,8 +192,8 @@ Insights TB1 (Todos participaron):
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |-------------------------|--------------------------|------------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Eslander Celis Berrospi (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.<br><br>**Nombre del integrande 2  (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Eslander Celis Berrospi (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.<br><br>**Nombre del integrande 2  (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Eslander Celis Berrospi (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.<br><br>**Gabriel Mendoza Palacios  (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Eslander Celis Berrospi (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.<br><br>**Gabriel Mendoza Palacios  (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa |
 
 # Project: 
 # Capitulo I: Introduccion
@@ -234,13 +235,13 @@ Responsabilidad, innovación y confiabilidad.
   <tr>
     <td style="text-align: center" align="center">
         <p align="center">
-        aaaaaaaaaaaa - Uaaaaaaaa  
+        Gabriel Mendoza Palacios - U202416908
          <br>
-         <img src="images/Paulofoto.PNG" alt="Foto" width="50%">
+         <img src="images/Gabriel_Foto.png" alt="Foto" width="50%">
          </p>
         </td>
         <td style="text-align: center" align="center">
-         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.
+         Soy estudiante de Ingeniería de Software con interes en seguir desarrollando mis habilidades de manera constante. Suelo trabajar de forma ordenada y cumplir con mis responsabilidades, aportando en entornos colaborativos. Tengo conocimientos en C++ y Python, que utilizo para resolver problemas y entender mejor el desarrollo de software. Busco seguir aprendiendo a través de nuevos retos y experiencias que me permitan crecer tanto a nivel académico como profesional.
         </td>
        
   </tr>
@@ -421,11 +422,201 @@ Este segmento está compuesto por las personas encargadas de trasladar los alime
 
 ### 2.1.1. Analisis competitivo
 
-### 2.1.2. Estrategias y tacticas frente a competidores
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif;">
+    <tr>
+        <th colspan="7">Competitive Analysis Landscape</th>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2"><strong>¿Por qué llevar a cabo este análisis?</strong></td>
+        <td colspan="5">¿Cómo se posiciona nuestra startup frente a sus competidores en cuanto a propuesta de valor, tecnología, producto y estrategia?</td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            Es un análisis comparativo que permite identificar fortalezas, debilidades, oportunidades y amenazas, así como entender mejor la posición de ColdTrack frente a otras soluciones de monitoreo de cadena de frío.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3"></td>
+        <td style="text-align:center;">
+            <strong>ColdTrack</strong><br>
+            <img src="images/logo" alt="Startup" style="width:100px;">
+        </td>
+        <td style="text-align:center;">
+            <strong>TSO Mobile Perú</strong><br>
+            <img src="images/tso.png" alt="TSO" style="width:100px;">
+        </td>
+        <td style="text-align:center;">
+            <strong>Sensitech</strong><br>
+            <img src="images/sensitech.png" alt="Sensitech" style="width:100px;">
+        </td>
+        <td style="text-align:center;">
+            <strong>Aranet</strong><br>
+            <img src="images/aranet.png" alt="Aranet" style="width:100px;">
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2">Perfil</td>
+        <td colspan="2">Overview</td>
+        <td>Plataforma digital que monitorea temperatura y humedad en tiempo real durante el transporte de alimentos mediante sensores integrados, con alertas y registro histórico.</td>
+        <td>Solución de monitoreo de flotas con sensores de temperatura y GPS para transporte en tiempo real.</td>
+        <td>Plataforma global de monitoreo de cadena de frío con sensores IoT y análisis avanzado de datos.</td>
+        <td>Sistema de sensores inalámbricos para monitoreo de temperatura y humedad en entornos controlados.</td>
+    </tr>
+    <tr>
+        <td colspan="2">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+        <td>Enfoque en transporte de alimentos, interfaz intuitiva, alertas en tiempo real y solución accesible para el mercado local.</td>
+        <td>Integración con GPS y monitoreo de flotas en tiempo real.</td>
+        <td>Alta precisión, tecnología avanzada y experiencia global.</td>
+        <td>Implementación sencilla y sensores inalámbricos eficientes.</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Perfil de Marketing</td>
+        <td colspan="2">Mercado objetivo</td>
+        <td>Empresas de distribución de alimentos, operadores logísticos y supervisores de calidad.</td>
+        <td>Empresas de transporte y logística en Perú.</td>
+        <td>Empresas globales de logística, farmacéutica y alimentos.</td>
+        <td>Empresas que requieren monitoreo ambiental (almacenes, industria).</td>
+    </tr>
+    <tr>
+        <td colspan="2">Estrategias de marketing</td>
+        <td>Enfoque en digitalización, eficiencia operativa y accesibilidad para empresas locales.</td>
+        <td>Marketing B2B y soluciones integradas de flotas.</td>
+        <td>Branding global, innovación tecnológica y posicionamiento premium.</td>
+        <td>Marketing técnico enfocado en sensores y eficiencia.</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Perfil de Producto</td>
+        <td colspan="2">Productos & Servicios.</td>
+        <td>Aplicación web con monitoreo en tiempo real, alertas y registro histórico de envíos.</td>
+        <td>Sistema de monitoreo con sensores y software de gestión de flotas.</td>
+        <td>Dispositivos IoT + plataforma de monitoreo y análisis.</td>
+        <td>Sensores inalámbricos + plataforma de monitoreo.</td>
+    </tr>
+    <tr>
+        <td colspan="2">Precios & Costos</td>
+        <td>Modelo accesible adaptable a empresas medianas y pequeñas.</td>
+        <td>Costo medio-alto por implementación de hardware y software.</td>
+        <td>Alto costo debido a tecnología avanzada.</td>
+        <td>Costo medio dependiendo de sensores y sistema.</td>
+    </tr>
+    <tr>
+        <td colspan="2">Canales de distribución (Web y/o Móvil)</td>
+        <td>Web (escalable a móvil).</td>
+        <td>Web y sistemas integrados.</td>
+        <td>Web y plataformas empresariales.</td>
+        <td>Web.</td>
+    </tr>
+    <tr>
+        <td rowspan="5">Análisis SWOT</td>
+    <tr>
+        <td colspan="2">Fortalezas</td>
+        <td>Fácil de usar, accesible, enfoque en transporte y monitoreo en tiempo real.</td>
+        <td>Presencia local y monitoreo de flotas.</td>
+        <td>Tecnología avanzada y reconocimiento global.</td>
+        <td>Sensores precisos y fácil implementación.</td>
+    </tr>
+    <tr>
+        <td colspan="2">Debilidades</td>
+        <td>Startup nueva con baja presencia en el mercado.</td>
+        <td>Enfoque técnico y menor usabilidad.</td>
+        <td>Alto costo y complejidad.</td>
+        <td>Menor enfoque en transporte.</td>
+    </tr>
+    <tr>
+        <td colspan="2">Oportunidades</td>
+        <td>Crecimiento del sector logístico y necesidad de control de calidad.</td>
+        <td>Expansión en el mercado peruano.</td>
+        <td>Expansión tecnológica global.</td>
+        <td>Mayor adopción de IoT en industrias.</td>
+    </tr>
+    <tr>
+        <td colspan="2">Amenazas</td>
+        <td>Competidores consolidados y adopción lenta del mercado.</td>
+        <td>Nuevas startups más accesibles.</td>
+        <td>Competencia en precios y nuevas tecnologías.</td>
+        <td>Competidores enfocados en transporte.</td>
+    </tr>
+</table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+Para definir el posicionamiento de **ColdTrack** frente a la competencia, se ha desarrollado la siguiente matriz FODA Cruzada.
+
+| **FODA CRUZADO** | &nbsp; | &nbsp; |
+| :--- | :--- | :--- |
+| **Factores Externos** | **Oportunidades (O)**<br>1. Crecimiento del sector logístico en Perú.<br>2. Regulaciones sanitarias más estrictas.<br>3. Disposición de Pymes para adoptar IoT.<br>4. Alianzas con gremios de transportistas. | **Amenazas (A)**<br>1. Competidores globales consolidados (Sensitech).<br>2. Resistencia al cambio tecnológico en conductores.<br>3. Competencia por precios bajos de sensores genéricos.<br>4. Inestabilidad de red móvil en zonas rurales. |
+| **Fortalezas (F)**<br>1. Especialización exclusiva en alimentos.<br>2. Interfaz minimalista de fácil uso.<br>3. Costos reducidos para Pymes.<br>4. Soporte técnico local y personalizado. | **Estrategia (FO) — Ofensivas**<br>• **FO1 (F1, O2):** Posicionar a ColdTrack como el aliado para cumplir normativas sanitarias locales.<br>• **FO2 (F3, O3):** Capturar el mercado de Pymes con planes de suscripción accesibles.<br>• **FO3 (F2, O1):** Facilitar adopción en nuevas flotas con una interfaz sin fricciones técnicas. | **Estrategia (FA) — Defensivas**<br>• **FA1 (F1, A1):** Diferenciarse de generalistas destacando nuestro enfoque en la merma de alimentos.<br>• **FA2 (F2, A2):** Vencer la resistencia tecnológica con una app que facilite el trabajo del conductor.<br>• **FA3 (F4, A3):** Competir contra hardware genérico ofreciendo servicio post-venta local. |
+| **Debilidades (D)**<br>1. Marca nueva con poca presencia.<br>2. Recursos limitados frente a corporaciones.<br>3. Dependencia de red en tiempo real.<br>4. Equipo de ventas reducido. | **Estrategia (DO) — Reorientación**<br>• **DO1 (D1, O4):** Ganar credibilidad rápida mediante convenios con asociaciones de transportistas.<br>• **DO2 (D3, O3):** Implementar almacenamiento offline en la app para sincronizar datos al recuperar señal.<br>• **DO3 (D4, O1):** Automatizar captación de clientes con marketing digital hiper-segmentado. | **Estrategia (DA) — Supervivencia**<br>• **DA1 (D2, A1):** Dominar nichos locales (ej. lácteos) antes de competir en licitaciones masivas.<br>• **DA2 (D1, A3):** Crear casos de éxito locales para generar confianza frente a opciones baratas.<br>• **DA3 (D3, A4):** Optimizar la app para que funcione con bajo consumo de datos en zonas rurales. |
 
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseno de entrevistas
+
+<h4 id="Segment">Segmento objetivo: Personal de Logística y Operaciones</h4> 
+
+<h4 id="PreguntPersonal">Preguntas Personales:</h4> 
+
+¿Cuál es su nombre?
+
+¿Cuál es su edad?
+
+¿Cuál es su cargo o rol exacto dentro de la empresa?
+
+¿Cuántos años de experiencia tiene en el sector logístico o control de calidad de alimentos?
+
+---
+
+<h4 id="PreguntEspe">Preguntas específicas:</h4> 
+
+¿Cómo gestionan actualmente el monitoreo de temperatura y humedad en sus unidades de transporte?
+
+¿Qué tipo de herramientas o sistemas utilizan en su día a día para este control (termómetros manuales, dataloggers, hojas de Excel, software)?
+
+¿Cuáles son los principales problemas o frustraciones que enfrenta para garantizar que no se rompa la cadena de frío?
+
+¿Ha tenido problemas recientes de pérdida de productos por fallas en la refrigeración que no se detectaron a tiempo?
+
+¿Qué tan rápido pueden reaccionar actualmente frente a una emergencia de temperatura en medio de una ruta?
+
+¿Qué información o métricas le resultaría más urgente visualizar en una plataforma en tiempo real?
+
+¿Estaría dispuesto a implementar una nueva solución tecnológica si esta no requiere una instalación compleja de hardware?
+
+¿Qué funcionalidades considera indispensables para que su equipo confíe en esta nueva plataforma?
+
+---
+
+<h4 id="Segment">Segmento objetivo: Personal de Transporte (Conductores)</h4> 
+
+<h4 id="PreguntPersonal">Preguntas Personales:</h4> 
+
+¿Cuál es su nombre?
+
+¿Cuál es su edad?
+
+¿Cuántos años de experiencia tiene manejando vehículos de transporte de carga refrigerada?
+
+¿Qué tipo de alimentos perecibles suele transportar con mayor frecuencia?
+
+---
+
+<h4 id="PreguntEspe">Preguntas específicas:</h4> 
+
+Durante un viaje, ¿cómo verifica actualmente que la temperatura de la cámara frigorífica se mantenga en los niveles correctos?
+
+¿Qué tipo de aplicaciones móviles utiliza en su celular para facilitar su trabajo diario (GPS, WhatsApp, apps de la empresa)?
+
+¿Cuáles son los principales problemas que enfrenta en la ruta respecto al cuidado de la carga?
+
+¿Alguna vez se le ha dañado la mercadería por un cambio de temperatura que no notó a tiempo? ¿Cómo ocurrió?
+
+Cuando ocurre una falla técnica con la refrigeración lejos de la base, ¿cuál es el protocolo que debe seguir?
+
+¿Suele transitar por zonas donde la señal de internet o celular es inestable? ¿Cómo maneja la comunicación en esos casos?
+
+Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gustaría que sea la alarma para que no lo distraiga mientras maneja?
+
+¿Qué tendría que tener esta aplicación para que sienta que le ayuda en su trabajo y no que lo está complicando?
 
 ### 2.2.2. Registro de entrevistas
 
