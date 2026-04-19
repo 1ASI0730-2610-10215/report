@@ -640,7 +640,11 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 # Capitulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
-
+1. Segmento 1: Personal de Logística y Operaciones.
+ <img src="./images/tobepersonaldelogisticayoperaciones.jpg" alt="tobepersonal" width="80%">
+ 
+2. Segmento 2: Personal de Transporte.
+ <img src="./images/tobetransportistas.png" alt="tobetransportistas" width="80%">
 ## 3.2. User Stories
 
 ### Epics
@@ -699,6 +703,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 
 
 ## 3.3. Impact Mapping
+<img src="./images/IMPACTMAPP.png" alt="tobetransportistas" width="90%">
 
 ## 3.4. Product Backlog
 
