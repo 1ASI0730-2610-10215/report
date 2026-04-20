@@ -24,7 +24,7 @@ Aplicaciones Web <br>
 |--------------------------------------|--------------|
 |Eslander Celis Berrospi      |  U201911249  |
 |Gabriel Mendoza Palacios     |  U202416908  |
-|         |  U |
+|Rodrigo Oblitas Alcalde         |  U20221G185 |
 |        |  U |
 |        |  U  |
 
@@ -40,7 +40,8 @@ Aplicaciones Web <br>
 |---------|-------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0.1     | 12/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo I: Introducción                                                                                                             |
 | 0.2     | 30/04/2026  | Gabriel Mendoza Palacios        | Desarrollo del capítulo II                                                                                  |
-| 0.3     | 18/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo III: Requirements specification                                                                                                             |
+| 0.3     | 18/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo III: Requirements specification                                                                                                 |
+| 0.4     | 19/04/2026  | Rodrigo Oblitas Alcalde       | Desarrollo del capítulo VI: Landing Page                                                                                                |
 
 
 
@@ -195,6 +196,7 @@ Insights TB1 (Todos participaron):
 |-------------------------|--------------------------|------------------|
 | Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Eslander Celis Berrospi (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.<br><br>**Gabriel Mendoza Palacios  (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa |
 | Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Eslander Celis Berrospi (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.<br><br>**Gabriel Mendoza Palacios  (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Eslander Celis Berrospi (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.<br><br>**Rodrigo Oblitas Alcalde  (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa |
 
 # Project: 
 # Capitulo I: Introduccion
@@ -246,7 +248,19 @@ Responsabilidad, innovación y confiabilidad.
         </td>
        
   </tr>
-  
+  <tr>
+    <td style="text-align: center" align="center">
+        <p align="center">
+        Rodrigo Oblitas Alcalde - U20221G185
+         <br>
+         <img src="images/foto_Rodrigo.png" alt="Foto Rodrigo" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+         Soy Rodrigo Oblitas, estudiante de Ingeniería de Software en el 6to ciclo. Soy una persona apasionada por la programación y el desarrollo de soluciones tecnológicas innovadoras. Me destaco por mi capacidad para trabajar en equipo, donde contribuyo con mis ideas y habilidades para lograr objetivos comunes de manera eficiente. Además de mi dedicación académica, soy una persona disciplinada que disfruta del entrenamiento físico como parte de mi estilo de vida, lo que refleja mi compromiso con la excelencia en todas las áreas. Tengo conocimientos en programación y busco constantemente mejorar mis habilidades técnicas para enfrentar nuevos desafíos en el desarrollo de software.
+        </td>
+       
+  </tr>
 
 </table>
 
@@ -332,13 +346,111 @@ Para el prototipo, el costo será bajo, pero en una implementación real implica
 
 ### 1.2.2. Lean UX Process
 
+El Lean UX Process es una metodologia de trabajo iterativa que permite validar rapidamente las ideas del producto con base en las necesidades reales de los usuarios. Para ColdTrack, este proceso permite comprender los problemas que enfrentan las empresas de distribucion de alimentos durante el transporte, plantear suposiciones sobre sus necesidades y convertirlas en hipotesis que puedan comprobarse mediante pruebas, entrevistas y prototipos. De esta manera, el equipo puede reducir riesgos antes de desarrollar la solucion completa y asegurar que la aplicacion responda a problemas reales relacionados con el monitoreo de temperatura, humedad, alertas y trazabilidad de los envios.
+
 #### 1.2.2.1. Lean UX Problem Statements
+
+Nuestro servicio esta disenado para ayudar a las empresas distribuidoras de alimentos, supervisores logisticos, personal de control de calidad y conductores a monitorear en tiempo real las condiciones de temperatura y humedad durante el transporte. Hemos observado que muchas organizaciones no cuentan con una herramienta centralizada que permita detectar variaciones criticas durante la ruta, lo que genera perdida de productos, retrasos en la toma de decisiones y menor control sobre la calidad de los alimentos. Esto esta causando problemas economicos, operativos y de seguridad alimentaria, ya que las fallas pueden ser identificadas demasiado tarde. ¿Como podriamos mejorar el control del transporte de alimentos mediante una plataforma que permita visualizar datos en tiempo real, recibir alertas oportunas y consultar el historial de cada envio, midiendo el exito a traves de la reduccion de perdidas, mayor rapidez de respuesta y mejor trazabilidad logistica?
 
 #### 1.2.2.2. Lean UX Assumptions
 
+**User Assumptions (Suposiciones de Usuario)**
+
+- **¿Quien es el usuario?:** Los usuarios son empresas distribuidoras de alimentos, supervisores logisticos, personal de control de calidad y conductores encargados de asegurar que los productos lleguen en condiciones adecuadas.
+- **¿Donde encaja nuestro producto en su trabajo o vida?:** ColdTrack encaja dentro del proceso diario de transporte y supervision de alimentos, especialmente durante el traslado desde centros de distribucion hasta el destino final.
+- **¿Que problemas resuelve nuestro producto?:** Resuelve la falta de monitoreo en tiempo real, la deteccion tardia de variaciones de temperatura o humedad, la ausencia de alertas oportunas y la poca trazabilidad del estado de los envios.
+- **¿Cuando y como se usa nuestro producto?:** Se utiliza antes, durante y despues del transporte. Antes del envio permite verificar la unidad y sensores; durante la ruta permite monitorear condiciones y recibir alertas; despues del envio permite revisar el historial registrado.
+- **¿Que caracteristicas son importantes?:** Las caracteristicas importantes son monitoreo en tiempo real, alertas automaticas, registro historico, visualizacion de temperatura y humedad, gestion de envios y una interfaz clara para supervisores y conductores.
+- **¿Como debe verse y comportarse nuestro producto?:** Debe ser una aplicacion sencilla, clara y confiable, con informacion facil de interpretar, tiempos de respuesta rapidos y alertas visibles que permitan actuar de inmediato.
+
+**Business Assumptions (Suposiciones de Negocio)**
+
+- **Necesidades y problemas:** Creemos que las empresas de distribucion de alimentos necesitan herramientas digitales que reduzcan perdidas y mejoren el control de calidad durante el transporte.
+- **Plataforma:** Estas necesidades pueden resolverse mediante una aplicacion conectada a sensores de temperatura y humedad instalados en las unidades de transporte.
+- **Segmentacion:** Los usuarios principales seran empresas del sector alimentario, operadores logisticos, supervisores de calidad y personal de transporte.
+- **Comportamientos:** El valor principal que un usuario quiere obtener de ColdTrack es mayor control sobre las condiciones del envio y capacidad de reaccionar rapidamente ante incidentes.
+- **Beneficios:** Los usuarios obtendran reduccion de perdidas, mejor trazabilidad, mayor eficiencia operativa y mayor seguridad en la distribucion de alimentos.
+- **Captacion de clientes:** Obtendremos usuarios mediante alianzas con empresas distribuidoras, demostraciones del prototipo, recomendaciones del sector logistico y presencia en canales digitales.
+- **Modelos de ingresos:** Para una implementacion real, el servicio podria funcionar bajo un modelo de suscripcion por empresa o por unidad de transporte monitoreada.
+- **Competencia:** Nuestra competencia incluye soluciones de monitoreo logistico, sistemas de sensores IoT y plataformas de gestion de transporte.
+- **Ventaja competitiva:** ColdTrack se diferencia por enfocarse especificamente en el transporte de alimentos, integrando monitoreo ambiental, alertas e historial de envios en una sola plataforma.
+
+**Technical Assumptions (Suposiciones Tecnicas)**
+
+- **Tecnologia utilizada:** Se utilizaran tecnologias web modernas para desarrollar la aplicacion y permitir el acceso desde distintos dispositivos.
+- **Integraciones:** La plataforma se integrara con sensores de temperatura y humedad capaces de enviar datos periodicamente al sistema.
+- **Escalabilidad:** La solucion debe estar preparada para manejar multiples unidades de transporte, varios envios simultaneos y crecimiento progresivo de usuarios.
+- **Disponibilidad:** La aplicacion debe mantener disponibilidad constante durante las rutas, ya que las alertas y datos en tiempo real son importantes para la toma de decisiones.
+
+**Market Assumptions (Suposiciones de Mercado)**
+
+- **Tamano del mercado:** El mercado objetivo incluye empresas peruanas y latinoamericanas dedicadas a la distribucion de alimentos que necesitan conservar la calidad de sus productos durante el transporte.
+- **Competencia:** Existen plataformas de gestion logistica y soluciones IoT, pero no todas estan enfocadas en la cadena de frio y el control especifico de alimentos.
+- **Tendencias:** Existe una mayor demanda de digitalizacion logistica, trazabilidad y control de calidad en la industria alimentaria.
+
+**Design Assumptions (Suposiciones de Diseno)**
+
+- **Interaccion del usuario:** La plataforma debe permitir que el usuario revise rapidamente el estado de un envio y entienda si existe algun riesgo.
+- **Experiencia del usuario:** La experiencia debe ser fluida, directa y facil de usar, especialmente para conductores o personal operativo que necesita informacion clara durante la ruta.
+- **Colores y tipografia:** Los usuarios valoraran una interfaz limpia, profesional y legible, con colores que permitan identificar estados normales, advertencias y alertas criticas.
+- **Preferencias visuales:** Los usuarios preferiran graficos simples, indicadores de estado y datos resumidos antes que pantallas saturadas de informacion.
+- **Prototipos y pruebas:** Se validaran las principales funciones mediante prototipos y pruebas de usabilidad con usuarios relacionados al transporte y control de calidad.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+**Hypothesis Statement 01:**
+
+Creemos que las empresas distribuidoras de alimentos necesitan monitorear en tiempo real la temperatura y humedad durante el transporte. Sabremos que estamos en lo correcto cuando los supervisores consulten frecuentemente el estado de los envios y reporten mayor control sobre sus operaciones.
+
+**Hypothesis Statement 02:**
+
+Creemos que las alertas automaticas ante variaciones criticas permitiran reducir perdidas de productos. Sabremos que estamos en lo correcto cuando los usuarios puedan actuar antes de que las condiciones afecten la calidad de los alimentos.
+
+**Hypothesis Statement 03:**
+
+Creemos que contar con un historial de cada envio mejorara la trazabilidad y el analisis logistico. Sabremos que estamos en lo correcto cuando las empresas utilicen los registros para revisar incidentes y tomar decisiones de mejora.
+
+**Hypothesis Statement 04:**
+
+Creemos que una interfaz clara y sencilla facilitara la adopcion de ColdTrack por parte de supervisores y conductores. Sabremos que estamos en lo correcto cuando los usuarios puedan interpretar el estado del envio sin requerir capacitacion extensa.
+
+**Hypothesis Statement 05:**
+
+Creemos que la integracion con sensores de temperatura y humedad aumentara la confiabilidad del control durante la ruta. Sabremos que estamos en lo correcto cuando los datos registrados permitan identificar cambios ambientales en tiempo real.
+
+**Hypothesis Statement 06:**
+
+Creemos que los conductores necesitan recibir informacion directa sobre posibles fallas durante el transporte. Sabremos que estamos en lo correcto cuando las alertas ayuden a responder rapidamente ante problemas en la unidad o en el sistema de refrigeracion.
+
+**Hypothesis Statement 07:**
+
+Creemos que ColdTrack ayudara a mejorar la eficiencia operativa de las empresas distribuidoras. Sabremos que estamos en lo correcto cuando se reduzca el tiempo dedicado a revisar manualmente las condiciones del transporte.
+
+**Hypothesis Statement 08:**
+
+Creemos que la visualizacion centralizada de los envios permitira una mejor supervision logistica. Sabremos que estamos en lo correcto cuando los usuarios puedan revisar varias rutas o unidades desde una sola plataforma.
+
+**Hypothesis Statement 09:**
+
+Creemos que la digitalizacion del control de calidad durante el transporte aumentara la confianza de las empresas en sus procesos. Sabremos que estamos en lo correcto cuando los usuarios consideren que la informacion registrada respalda mejor sus decisiones.
+
+**Hypothesis Statement 10:**
+
+Creemos que una solucion enfocada en alimentos tendra mayor valor para empresas que requieren preservar la calidad de sus productos. Sabremos que estamos en lo correcto cuando los usuarios identifiquen a ColdTrack como una herramienta mas adecuada que plataformas logisticas genericas.
+
 #### 1.2.2.4. Lean UX Canvas
+
+| **Seccion** | **Descripcion** |
+|-------------|-----------------|
+| **Business Problem** | Las empresas distribuidoras de alimentos tienen dificultades para controlar en tiempo real las condiciones de temperatura y humedad durante el transporte, lo que puede ocasionar perdidas economicas, deterioro de productos y problemas de calidad. |
+| **Business Outcomes** | Reducir perdidas de alimentos, mejorar la eficiencia logistica, aumentar la trazabilidad de los envios y fortalecer el control de calidad durante el transporte. |
+| **Users** | Empresas distribuidoras de alimentos, supervisores logisticos, personal de control de calidad y conductores encargados del traslado de productos. |
+| **User Outcomes & Benefits** | Los usuarios podran conocer el estado de los envios en tiempo real, recibir alertas ante condiciones criticas, actuar rapidamente y revisar historiales para mejorar sus procesos. |
+| **Solutions** | Aplicacion web ColdTrack conectada a sensores de temperatura y humedad, con monitoreo en tiempo real, alertas automaticas, visualizacion de datos e historial de envios. |
+| **Hypotheses** | Si las empresas utilizan ColdTrack para monitorear sus envios, entonces podran reducir riesgos de deterioro y tomar decisiones mas rapidas durante el transporte. |
+| **What is the most important thing we need to learn first?** | Validar si los usuarios consideran critico recibir alertas en tiempo real y si el historial de datos aporta valor para la supervision y control de calidad. |
+| **What is the least amount of work we need to do to learn the next most important thing?** | Crear un prototipo funcional con visualizacion de temperatura y humedad, alertas basicas y registro de un envio para probarlo con usuarios del sector logistico. |
+
 
 ## 1.3. Segmentos Objetivo
 
