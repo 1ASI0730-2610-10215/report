@@ -732,31 +732,156 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | 21 | US-021 | Formulario de contacto | 3 |
 | 22 | US-022 | Ver equipo de desarrollo | 2 |
 | 23 | US-023 | Ver funcionalidades del sistema | 3 |
-# Capitulo IV: Product Design
+
+# Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
 
+En esta sección, detallamos los lineamientos de diseño, estilo y apariencia visual de la plataforma ColdTrack. El objetivo es garantizar una interfaz intuitiva que permita a los supervisores logísticos y conductores monitorear datos críticos de temperatura sin distracciones. Para ello, hemos optado por una estética moderna y funcional, utilizando elementos visuales claros que facilitan la toma de decisiones rápida.
+
 ### 4.1.1. General Style Guidelines
 
+**Branding:** El logotipo de **ColdTrack** ha sido diseñado para reflejar tecnología y seguridad en la cadena de frío. Los colores seleccionados transmiten profesionalismo y confianza, reforzando la identidad de una solución robusta.
+
+<p align="center">
+  <img src="../images/logo.png" alt="Logo de ColdTrack" width="20%"/>
+</p>
+
+**Tono de Comunicación:**
+- **Analítico y Profesional:** Para brindar seguridad sobre la precisión de los datos de los sensores.
+- **Directo y Preventivo:** Uso de alertas claras para facilitar la reacción inmediata ante cambios en la temperatura.
+- **Eficiente:** Enfocado en la reducción de mermas y la optimización de la logística.
+
+**Tipografía:** Para garantizar un rendimiento óptimo y una apariencia integrada en cualquier sistema operativo, ColdTrack utiliza una **pila de fuentes nativas (System Fonts)**. Esto permite que la aplicación se sienta familiar y sea altamente legible tanto en dispositivos móviles como en escritorio, utilizando fuentes como -apple-system, BlinkMacSystemFont (macOS/iOS), Segoe UI (Windows) y Roboto (Android).
+
+**Colores de Marca:**
+Basándonos en la implementación actual de la Landing Page, la paleta se define por los siguientes códigos hexadecimales:
+- **Primario (#0052CC):** Azul corporativo que representa confianza y frío controlado.
+- **Secundario (#F5F5F5):** Gris claro para fondos de secciones y tarjetas.
+- **Oscuro (#0F1117):** Color para el footer y elementos de alto contraste.
+- **Éxito (#10B981):** Verde para estados "Normales" de los envíos.
+- **Advertencia (#F59E0B):** Ámbar para alertas preventivas en el dashboard.
+
+**Paleta de Colores:**
+
+| Color | Código Hex | Uso Principal |
+| :--- | :--- | :--- |
+| Primario | #0052CC | Identidad de marca, botones CTA y navegación. |
+| Secundario | #F5F5F5 | Fondos de secciones y tarjetas de características. |
+| Oscuro | #0F1117 | Fondo de Footer y elementos de contraste. |
+| Éxito | #10B981 | Indicadores de estado óptimo (Badge Normal). |
+| Advertencia | #F59E0B | Alertas de temperatura (Badge Advertencia). |
+
+**Espaciado y Distribución:** Se utiliza un diseño basado en contenedores (container) y una rejilla responsiva (shipments-grid). El espaciado generoso entre las tarjetas de "Envío" en el preview del dashboard asegura que el usuario pueda identificar rápidamente qué unidad requiere atención.
+
 ### 4.1.2. Web Style Guidelines
+
+La plataforma **ColdTrack** está diseñada bajo un enfoque **Responsive**, asegurando que la visualización de los datos sea fluida en computadoras de escritorio, tablets y smartphones.
+
+**Componentes Implementados:**
+
+**Cabecera (Header):**
+- **Navegación Fija (Sticky):** Permite acceso rápido a Características, Cómo Funciona y Beneficios.
+- **Identidad:** Logo de ColdTrack y nombre de marca siempre visibles a la izquierda.
+- **Acceso:** Botón de "Iniciar Sesión" destacado con fondo azul a la derecha.
+
+**Hero Section:**
+- **Propuesta de Valor:** Título principal centrado ("Monitoreo en Tiempo Real...") y descripción del impacto del producto en la calidad.
+- **Dashboard Preview:** Representación visual con tarjetas individuales para envíos activos, mostrando métricas de temperatura en grados Celsius y porcentaje de humedad.
+
+**Secciones Operativas:**
+- **Características:** Tres pilares con iconos minimalistas: Monitoreo en Tiempo Real, Alertas Automáticas e Historial Detallado.
+- **Cómo Funciona:** Proceso numerado del 1 al 4 (Instalación, Transmisión, Monitoreo y Reportes).
+- **Beneficios:** Sección con fondo azul sólido y tarjetas translúcidas que destacan la Eficiencia, Reducción de Riesgos y Decisiones Rápidas.
+
+---
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
 
+Hemos implementado una **Estructura Jerárquica (Tree Structure)** basada en la navegación por secciones:
+
+* **Estructura de la Landing Page:**
+  * **Inicio (Hero):** Captación y visión general del dashboard.
+  * **Características:** Detalle técnico de las capacidades del sistema.
+  * **Proceso (Cómo Funciona):** Guía paso a paso de la implementación IoT.
+  * **Valor (Beneficios):** Impacto directo en la operación logística.
+
+* **Estructura del Dashboard:**
+  * **Raíz:** Monitoreo en Vivo (Resumen de envíos activos).
+  * **Nivel 1:** Tarjetas de Envío (ID, Estado con Badges de color, Temperatura, Humedad).
+
 ### 4.2.2. Labeling Systems
+
+El sistema de etiquetado utiliza términos claros para evitar ambigüedades operativas:
+- **"Dashboard - Monitoreo en Vivo":** Define el área de trabajo en tiempo real.
+- **"Normal" / "Advertencia":** Etiquetas de estado (Badges) con colores verde y naranja respectivamente.
+- **"Envío #XXXX":** Identificador único para trazabilidad de carga.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+- **Title:** ColdTrack - Monitoreo en Tiempo Real para el Transporte de Alimentos.
+- **Description:** Asegura la calidad de tus productos con control de temperatura y humedad en cada etapa del transporte.
+- **Keywords:** monitoreo de alimentos, cadena de frío, sensores IoT, transporte refrigerado.
+- **Meta Tags:** Viewport configurado para escalabilidad (width=device-width, initial-scale=1.0).
+
 ### 4.2.4. Searching Systems
 
+- **Navegación Anclada:** Enlaces internos en el Header (#caracteristicas, #como-funciona, #beneficios) que permiten un desplazamiento suave (smooth scroll) hacia las secciones correspondientes.
+
 ### 4.2.5. Navigation Systems
+
+- **Sticky Navbar:** Menú superior fijo que mantiene el acceso al login y a las secciones durante todo el recorrido.
+- **Call to Action (CTA):** Botones principales ("Comenzar Ahora") con alta visibilidad para guiar la conversión del usuario.
+
+---
 
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
 
+<p align="center">
+  <img src="../images/landing-wireframe.png" alt="Wireframe de la Landing Page de ColdTrack" width="85%"/>
+</p>
+
 ### 4.3.2. Landing Page Mock-up
+
+**Sección Hero y Dashboard:**
+Visualización principal de la propuesta de valor y estados de monitoreo activos.
+
+<p align="center">
+  <img src="images/image_dd8560.jpg" alt="Hero Section ColdTrack" width="85%"/>
+</p>
+
+**Detalle del Dashboard en Vivo:**
+Vista detallada de las tarjetas de envío con métricas de temperatura y alertas.
+
+<p align="center">
+  <img src="images/image_dd8562.png" alt="Dashboard Live Monitoring" width="85%"/>
+</p>
+
+**Características y Funcionamiento:**
+Explicación de las capacidades técnicas y el flujo de implementación del sistema.
+
+<p align="center">
+  <img src="images/image_dd857d.png" alt="Características ColdTrack" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="images/image_dd8599.png" alt="Cómo Funciona ColdTrack" width="85%"/>
+</p>
+
+**Beneficios y Footer:**
+Sección de impacto operativo y enlaces de navegación secundaria.
+
+<p align="center">
+  <img src="images/image_dd85a0.png" alt="Beneficios ColdTrack" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="images/image_dd8847.png" alt="Footer ColdTrack" width="85%"/>
+</p>
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -849,3 +974,4 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
