@@ -24,8 +24,8 @@ Aplicaciones Web <br>
 |--------------------------------------|--------------|
 |Eslander Celis Berrospi      |  U201911249  |
 |Gabriel Mendoza Palacios     |  U202416908  |
-|Rodrigo Oblitas Alcalde         |  U20221G185 |
-|        |  U |
+|Rodrigo Oblitas Alcalde      |  U20221G185  |
+|Aarón Avila Palacios         |  U201823654  |
 |        |  U  |
 
 
@@ -39,9 +39,10 @@ Aplicaciones Web <br>
 | Versión | Fecha       | Autor(es)                                                              | Descripción                                                                                                                                         |
 |---------|-------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0.1     | 12/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo I: Introducción                                                                                                             |
-| 0.2     | 30/04/2026  | Gabriel Mendoza Palacios        | Desarrollo del capítulo II                                                                                  |
-| 0.3     | 18/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo III: Requirements specification                                                                                                 |
-| 0.4     | 19/04/2026  | Rodrigo Oblitas Alcalde       | Desarrollo del capítulo VI: Landing Page                                                                                                |
+| 0.1     | 30/04/2026  | Gabriel Mendoza Palacios        | Desarrollo del capítulo II                                                                                  |
+| 0.1     | 18/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo III: Requirements specification                                                                                                 |
+| 0.1     | 19/04/2026  | Rodrigo Oblitas Alcalde       | Desarrollo del capítulo VI: Landing Page                                                                                                |
+| 0.1     | 19/04/2026  | Aarón Avila Palacios       | Desarrollo del capítulo V                                                                                             |
 
 
 
@@ -191,12 +192,35 @@ Insights TB1 (Todos participaron):
 # Student Outcome
 
 # Student Outcome
-
-| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
-|-------------------------|--------------------------|------------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Eslander Celis Berrospi (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.<br><br>**Gabriel Mendoza Palacios  (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Eslander Celis Berrospi (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.<br><br>**Gabriel Mendoza Palacios  (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Eslander Celis Berrospi (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.<br><br>**Rodrigo Oblitas Alcalde  (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa |
+<table>
+    <tr>
+        <th>CRITERIO ESPECIFICO</th>
+        <th>ACCIONES REALIZADAS</th>
+        <th>CONCLUSIONES</th>
+    </tr>
+    <tr>
+        <th> Comunica oralmente con efectividad a diferentes rangos de audiencia.</th>
+        <td>
+          <b>Aarón Avila: TB1</b><br>
+         aaaaaaaaaaaaaaaaaaa<br>
+        </td>
+        <td>
+          <b>TB1</b><br>
+          En conclusión, <br><br>
+        </td>
+    </tr>
+    <tr>
+        <th>Comunica por escrito con efectividad a diferentes rangos de audiencia.</th>
+        <td>
+          <b>Aarón Avila: TB1</b><br>
+          aaaaaaaaaaaaaa<br>
+        </td>
+        <td>
+          <b>TB1:</b><br>
+          En conclucion, <br><br>
+        </td>
+    </tr>
+</table>
 
 # Project: 
 # Capitulo I: Introduccion
@@ -261,6 +285,17 @@ Responsabilidad, innovación y confiabilidad.
         </td>
        
   </tr>
+  <tr>
+    <td style="text-align: center" align="center">
+        <p align="center">
+        Aarón Avila Palacios - U201823654
+         <br>
+         <img src="images/foto_Aaron.png" alt="Foto Aaron" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+        Soy estudiante de Ingeniería de software y estoy cursando el quinto ciclo de la carrera. Tengo 23 años. Tengo conocimientos en programación orientada a objetos en lenguaje de programación C++, también en diseño de prototipos de aplicaciones, diseño gráfico, diseño e implementación de páginas web. Todas estas habilidades ayudan al desarrollo del proyecto, dado que son de vital importancia en este curso y en nuestra carrera. Soy capaz de desarrollar de manera eficaz cualquier tarea que se me asigne. 
+        </td>
 
 </table>
 
