@@ -1002,45 +1002,40 @@ El sistema de etiquetado utiliza términos claros para evitar ambigüedades oper
 ### 4.3.1. Landing Page Wireframe
 
 <p align="center">
-  <img src="../images/landing-wireframe.png" alt="Wireframe de la Landing Page de ColdTrack" width="85%"/>
+  <img src="images/Landing_wireframe.jpg" alt="Wireframe de la Landing Page de ColdTrack" width="85%"/>
 </p>
+
+<p align="center">
+  <img src="images/Landing_wireframe2.jpg" alt="Wireframe de la Landing Page de ColdTrack" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="images/Landing_wireframe3.jpg" alt="Wireframe de la Landing Page de ColdTrack" width="85%"/>
+</p>
+
+
 
 ### 4.3.2. Landing Page Mock-up
 
-**Sección Hero y Dashboard:**
+**Sección Hero y Detalles del Dashboard:**
 Visualización principal de la propuesta de valor y estados de monitoreo activos.
 
 <p align="center">
-  <img src="images/image_dd8560.jpg" alt="Hero Section ColdTrack" width="85%"/>
-</p>
-
-**Detalle del Dashboard en Vivo:**
-Vista detallada de las tarjetas de envío con métricas de temperatura y alertas.
-
-<p align="center">
-  <img src="images/image_dd8562.png" alt="Dashboard Live Monitoring" width="85%"/>
+  <img src="images/Landing_mockup.jpg" alt="Hero Section ColdTrack" width="85%"/>
 </p>
 
 **Características y Funcionamiento:**
 Explicación de las capacidades técnicas y el flujo de implementación del sistema.
 
 <p align="center">
-  <img src="images/image_dd857d.png" alt="Características ColdTrack" width="85%"/>
-</p>
-
-<p align="center">
-  <img src="images/image_dd8599.png" alt="Cómo Funciona ColdTrack" width="85%"/>
+  <img src="images/Landing_mockup2.jpg" alt="Características ColdTrack" width="85%"/>
 </p>
 
 **Beneficios y Footer:**
 Sección de impacto operativo y enlaces de navegación secundaria.
 
 <p align="center">
-  <img src="images/image_dd85a0.png" alt="Beneficios ColdTrack" width="85%"/>
-</p>
-
-<p align="center">
-  <img src="images/image_dd8847.png" alt="Footer ColdTrack" width="85%"/>
+  <img src="images/Landing_mockup3.jpg" alt="Beneficios ColdTrack" width="85%"/>
 </p>
 
 ## 4.4. Web Applications UX/UI Design
