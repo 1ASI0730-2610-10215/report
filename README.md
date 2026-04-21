@@ -20,13 +20,13 @@ Aplicaciones Web <br>
 
 <div align="center">
 
-| **Member**                           | **Code**     |
-|--------------------------------------|--------------|
-|Eslander Celis Berrospi      |  U201911249  |
-|Gabriel Mendoza Palacios     |  U202416908  |
-|Rodrigo Oblitas Alcalde      |  U20221G185  |
-|Aarón Avila Palacios         |  U201823654  |
-|        |  U  |
+| **Member**                | **Code**   |
+|---------------------------|------------|
+| Eslander Celis Berrospi   | U201911249 |
+| Gabriel Mendoza Palacios  | U202416908 |
+| Rodrigo Oblitas Alcalde   | U20221G185 |
+| Aarón Avila Palacios      | U201823654 |
+| Mathias Arechaga Saavedra | U202320699 |
 
 
 </div>
@@ -36,13 +36,14 @@ Aplicaciones Web <br>
 <div style="page-break-before: always;"></div>
 
 # Registro de Versiones del Informe
-| Versión | Fecha       | Autor(es)                                                              | Descripción                                                                                                                                         |
-|---------|-------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0.1     | 12/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo I: Introducción                                                                                                             |
-| 0.1     | 30/04/2026  | Gabriel Mendoza Palacios        | Desarrollo del capítulo II                                                                                  |
-| 0.1     | 18/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo III: Requirements specification                                                                                                 |
-| 0.1     | 19/04/2026  | Rodrigo Oblitas Alcalde       | Desarrollo del capítulo VI: Landing Page                                                                                                |
-| 0.1     | 19/04/2026  | Aarón Avila Palacios       | Desarrollo del capítulo V                                                                                             |
+| Versión | Fecha      | Autor(es)                 | Descripción                                             |
+|---------|------------|---------------------------|---------------------------------------------------------|
+| 0.1     | 12/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo I: Introducción                 |
+| 0.1     | 30/04/2026 | Gabriel Mendoza Palacios  | Desarrollo del capítulo II                              |
+| 0.1     | 18/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo III: Requirements specification |
+| 0.1     | 19/04/2026 | Rodrigo Oblitas Alcalde   | Desarrollo del capítulo VI: Landing Page                |
+| 0.1     | 19/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V                               |
+| 0.1     | 21/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capitulo IV: Wireframes                  |
 
 
 
@@ -296,7 +297,19 @@ Responsabilidad, innovación y confiabilidad.
         <td style="text-align: center" align="center">
         Soy estudiante de Ingeniería de software y estoy cursando el quinto ciclo de la carrera. Tengo 23 años. Tengo conocimientos en programación orientada a objetos en lenguaje de programación C++, también en diseño de prototipos de aplicaciones, diseño gráfico, diseño e implementación de páginas web. Todas estas habilidades ayudan al desarrollo del proyecto, dado que son de vital importancia en este curso y en nuestra carrera. Soy capaz de desarrollar de manera eficaz cualquier tarea que se me asigne. 
         </td>
-
+  
+  <tr>
+    <td style="text-align: center" align="center">
+        <p align="center">
+        Mathias Arechaga Saavedra - U202320699
+         <br>
+         <img src="images/foto_Mathias.jpg" alt="Foto Math" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+        Soy Mathias Arechaga, estudiante de Ingeniería de Software y actualmente cursando el quinto ciclo. Me considero una persona dedicada y orientada a crecer tanto en el ámbito académico como profesional. Me interesa el mundo de la programación porque me permite diseñar soluciones, afrontar retos y adquirir constantemente nuevos conocimientos tecnológicos. Cuento con manejo de HTML y conocimientos básicos de Python, lo que me facilita desarrollar proyectos simples mientras sigo perfeccionando mis competencias.
+        </td>
+  
 </table>
 
 ## 1.2. Solution Profile
