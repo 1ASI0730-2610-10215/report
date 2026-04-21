@@ -1038,6 +1038,10 @@ Sección de impacto operativo y enlaces de navegación secundaria.
   <img src="images/Landing_mockup3.jpg" alt="Beneficios ColdTrack" width="85%"/>
 </p>
 
+<p align="center">
+  <img src="images/Landing_mockup4.jpg" alt="Beneficios ColdTrack" width="85%"/>
+</p>
+
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
