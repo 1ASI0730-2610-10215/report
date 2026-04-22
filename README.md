@@ -763,6 +763,20 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 ¿Qué tendría que tener esta aplicación para que sienta que le ayuda en su trabajo y no que lo está complicando?
 
 ### 2.2.2. Registro de entrevistas
+#### **Primer Segmento - Personas del Hogar:** <br>
+
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Gianelly Vásquez |
+| **Edad** | 27 |
+| **Profesión** | supervisora de control de calidad |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00 |
+| **Fin del video** | 03:55 |
+| **Link del video** | ---- |
+| **Foto entrevista** | <img src="images/entrevista1-segmento1.png" alt=""  width="250" /> |
+| **Resumen** | Gianelly Vásquez, supervisora de control de calidad en transporte de alimentos refrigerados que vive en Jesús María, actualmente gestiona el monitoreo de temperatura de forma manual usando termómetros digitales, dataloggers básicos y registros en Excel, sin contar con un sistema integrado en tiempo real, lo que genera dependencia del conductor y riesgo de errores humanos; su principal problema es la falta de visibilidad durante el trayecto, ya que las fallas en la cadena de frío suelen detectarse tarde, ocasionando pérdidas de productos, especialmente en rutas largas, y dificultando una reacción oportuna ante emergencias; por ello, considera que la solución ideal debería ofrecer monitoreo en tiempo real, alertas automáticas ante variaciones de temperatura, ubicación del vehículo, historial de datos y una interfaz fácil de usar desde el celular, creyendo que una aplicación como ColdTrack podría mejorar el control, reducir pérdidas y optimizar la operación logística. |
+
 
 ### 2.2.3. Analisis de entrevistas
 
