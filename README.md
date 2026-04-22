@@ -37,7 +37,7 @@
 | Versión | Fecha      | Autor(es)                 | Descripción                                             |
 |---------|------------|---------------------------|---------------------------------------------------------|
 | 0.1     | 12/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo I: Introducción                 |
-| 0.1     | 30/04/2026 | Gabriel Mendoza Palacios  | Desarrollo del capítulo II                              |
+| 0.1     | 30/04/2026 | Gabriel Mendoza Palacios  | Desarrollo del capítulo II: Requirements Elicitation & Analysis   |
 | 0.1     | 18/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo III: Requirements specification |
 | 0.1     | 19/04/2026 | Rodrigo Oblitas Alcalde   | Desarrollo del capítulo VI: Landing Page                |
 | 0.1     | 19/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V                               |
@@ -248,7 +248,7 @@ Responsabilidad, innovación y confiabilidad.
         <p align="center">
         Gabriel Mendoza Palacios - U202416908
          <br>
-         <img src="images/Gabriel_Foto.png" alt="Foto" width="50%">
+         <img src="images/foto_Gabriel.png" alt="Foto Gabriel" width="50%">
          </p>
         </td>
         <td style="text-align: center" align="center">
