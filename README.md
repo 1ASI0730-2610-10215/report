@@ -1,24 +1,21 @@
-<p align="center">
-  <img src="images/logo_UPC.png" alt="Logo de la UPC" />
-</p>
+<h1 align="center"> UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS </h1>
 
-<p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
-
-<p align="center"><strong>Ingeniería de Software</strong><br>
-Aplicaciones Web <br>
-<strong>Profesor:</strong> Velásquez Núñez, Ángel Augusto </p>
-
-<h2 align="center">INFORME</h2>
-<h2 align="center">2026 - 10</h2>
-
-<h3 align="center">Startup: FreshGuard</h3>
-<h3 align="center">1ASI0730-2610-10215</h3>
-
-<p align="center"><strong>Producto: ColdTrack</strong></p>
-
-<h3 align="center">Team Members:</h3>
+<h2 align="center"> INGENIERIA DE SOFTWARE</h2>
+<h2 align="center"> CICLO 2026-1</h2>
 
 <div align="center">
+   <img src="images/logo_UPC.png" alt="Logo de la UPC" />
+</div>
+
+<br>
+<h3 align="center"> Aplicaciones Web </h3>
+<h3 align="center"> 1ASI0730-2610-10215 </h3>
+<h3 align="center"> Profesor del Curso: Velásquez Núñez, Ángel Augusto </h3>
+<h3 align="center"> "INFORME DE TRABAJO FINAL"</h3>
+<h3 align="center"> Nombre de Startup: FreshGuard  </h3>
+<h3 align="center"> Nombre del Producto: ColdTrack  </h3>
+<div align="center">
+
 
 | **Member**                | **Code**   |
 |---------------------------|------------|
@@ -29,9 +26,10 @@ Aplicaciones Web <br>
 | Mathias Arechaga Saavedra | U202320699 |
 
 
+
 </div>
 
-<p align="center"><strong>Abril 2026</strong></p>
+<h3 align="center"> ABRIL - 2026   </h3>
 
 <div style="page-break-before: always;"></div>
 
@@ -160,22 +158,7 @@ Insights TB1 (Todos participaron):
     * [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     * [5.1.2. Source Code Management](#512-source-code-management)
     * [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-
-      * [HTML](#html)
-      * [CSS](#css)
-      * [JavaScript](#javascript)
-      * [TypeScript](#typescript)
-      * [Java](#java)
-      * [Gherkin Conventions for Readable Specifications](#gherkin-conventions-for-readable-specifications)
-      * [Angular Coding Style Guide](#angular-coding-style-guide)
-      * [Spring Boot Features](#spring-boot-features)
     * [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-
-      * [Despliegue de la Landing Page en GitHub Pages](#despliegue-de-la-landing-page-en-github-pages)
-      * [Consideraciones previas al despliegue](#consideraciones-previas-al-despliegue)
-      * [Pasos de despliegue](#pasos-de-despliegue)
-      * [Despliegue de la Frontend Web Application en Vercel](#despliegue-de-la-frontend-web-application-en-vercel)
-      * [Despliegue de los Web Services (Backend) en Azure](#despliegue-de-los-web-services-backend-en-azure)
 
   * [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
 
