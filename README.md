@@ -1058,29 +1058,98 @@ Sección de impacto operativo y enlaces de navegación secundaria.
 # Capitulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
+A continuación, se describe el proceso por el cual organizamos, gestionamos y controlamos los cambio de desarrollo de ColdTrack.
 
-### 5.1.1. Software Development Environment Configuration
+### 5.1.1. Software Development Environment Configuration.
+
+Gestión de las necesidades
+
+- Trello: Herramienta utilizada para gestionar el flujo de trabajo de proyectos principalmente marcos en red de trabajos ágiles. El segmento para visualizar y actualizar el estado real de las tareas e historias de usuario pertenecientes al sprint a desarrollado.
+
+  Ruta de referencia:https://trello.com/es
+
+Diseño UX/UI
+
+- Figma: Plataforma de elaboración de prototipos y edición gráfica, principalmente utilizada para el diseño digital. En el caso del proyecto, se utilizó para el prototipado de la aplicación y sus versiones de Desktop y Mobile Web Browser.
+
+  Ruta de referencia: https://www.figma.com/login
+
+- Lucidchart: Aplicación para diagramar flujos. Será empleado para el diseño de flujos de cable, flujos de usuario y el diagrama de clases asociadas a la aplicación.
+  Ruta de referencia: https://www.lucidchart.com/
+
+Desarrollo de software
+
+- Visual Studio Code: Entorno de desarrollo integrado elegido para la elaboración y compilación de los factores de control por dominio por parte de los integrantes del equipo de trabajo. Utilizar este IDE supone valor para el desarrollo del proyecto puesto que incluye la posibilidad de añadir extensiones de utilidad, soporte de edición de texto en múltiples lenguajes de programación, disponibilidad en varios sistemas, operativos entre otros beneficios.
+  Ruta de referencia: https://code.visualstudio.com/
+
+- HTML5: HyperText Markup Language, o siglas por sus HTML, es un lenguaje de etiquetado para páginas web. Será empleado en el desarrollo del proyecto para la presentación del contenido en la aplicación.
+  Ruta de referencia: https://www.w3schools.com/html/html5-syntax.asp
+
+- CSS: Hojas de estilo en cascada es un lenguaje que maneja el diseño y presentación de las páginas web, el que va de la mano con HTML.
+  Ruta de referencia: https://google.github.io/styleguide/htmlcssguide.html
+
+- Bootstrap: Marco CSS que crea motores web de forma rápida y eficiente. Bootstrap se utilizará para la creación de la interfaz responsiva, asegurando que la plataforma funcione correctamente en distintos dispositivos.
+  Ruta de referencia: https://getbootstrap.com/
+
+Implementación de software
+
+- Git: Una herramienta de control de versiones que facilitan el registro y la gestión de las versiones distintas del programa. Su propósito es mantener un historial de cambios y simplificar el corrección de errores. Los integrantes del equipo A través de la línea de comandos en sus sistemas locales.
+
+  Ruta de referencia: https://git-scm.com/
+
+  Documentación y gestión de proyectos de software
+
+- Github: Una plataforma en la nube que hospedará los repositorios de código del proyecto. Permitir la colaboración en tiempo real y la revisión de las contribuciones de cada miembro del equipo. Los integrantes del equipo se puede acceder a través de sus navegadores web.
+  Ruta de referencia: https://github.com/
+
 
 ### 5.1.2. Source Code Management
 
 ### 5.1.3. Source Code Style Guide & Conventions
+Para garantizar coherencia, mantenibilidad y escalabilidad del código, se establecen las siguientes normas de estilo:
 
-#### HTML
+1.  HTML
+    Estructura básica
 
-#### CSS
+              <!DOCTYPE html>
+              HTM lang = " es ">
 
-#### JavaScript
+         - Reglas generales:
+            - Todos los elementos deben estar correctamente cerrados
 
-#### TypeScript
+                   (ej. <img />, <div></div>).
 
-#### Java
+             - Usar comillas dobles (" ") en atributos que contengan espacios.
 
-#### Gherkin Conventions for Readable Specifications
+             - Incluir atributos esenciales en imágenes.
 
-#### Angular Coding Style Guide
+1.  CSS
 
-#### Spring Boot Features
+    Formato:
 
+    - Sangría: 2 espacios (sin pestañas).
+
+    - Minúsculas en Selectores, propiedades y valores.
+
+    - Empiteación en blanco innecesarios y líneas vacías redundantes.
+
+1.  Tailwind
+
+    Principios:
+
+    - Aprovechar al máximo las utilidades predefinidas (sistema de red, componentes, ayudantes).
+
+    - Evitar sobrescribir estilos base; usar clases contextuales (ej. bg-primary, text-success).
+
+    - Solo agrega CSS personalizado.
+
+1.  vue.js
+
+    Reglas clave:
+
+    - Nombres de Compentes: PascalCase(Ej: UserProfile.vue)
+    - Props: Definir tipos y valores por defecto.
+      
 ### 5.1.4. Software Deployment Configuration
 
 #### Despliegue de la Landing Page en GitHub Pages
