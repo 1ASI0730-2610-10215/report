@@ -1249,13 +1249,43 @@ Sección de impacto operativo y enlaces de navegación secundaria.
 
 ### 4.4.1. Web Applications Wireframes
 
+<p align="center">
+  <img src="images/web_app_wireframes.jpg" alt="web-app-diag" width="85%"/>
+</p>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+<p align="center">
+  <img src="images/web_wireflow_diag.jpg" alt="web-diag" width="85%"/>
+</p>
 
 ### 4.4.3. Web Applications Mock-ups
 
+<p align="center">
+  <img src="images/web_app_mockups.jpg" alt="web-app-mock" width="85%"/>
+</p>
+
 ### 4.4.4. Web Applications User Flow Diagrams
 
+<p align="center">
+  <img src="images/user_goal1.jpg" alt="user-flow" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="images/user_goal2.jpg" alt="user-flow" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="images/user_goal3.jpg" alt="user-flow" width="85%"/>
+</p>
+
 ## 4.5. Web Applications Prototyping
+
+<p align="center">
+  <img src="images/prototype_ss.jpg" alt="prototype-ss" width="85%"/>
+</p>
+
+#### Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320699_upc_edu_pe/IQACBR9pDoCKSIpvd7NcFc3CAcul48K88RqMf49wIC2AbMA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ji22ya
 
 ## 4.6. Domain-Driven Software Architecture
 En esta sección, el equipo profundiza en la arquitectura de software para la solución ColdTrack, tomando como base los hitos alcanzados durante el Big Picture Event Storming. 
