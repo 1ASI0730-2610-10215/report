@@ -609,7 +609,7 @@ Este segmento está compuesto por las personas encargadas de trasladar los alime
         <td colspan="3"></td>
         <td style="text-align:center;">
             <strong>ColdTrack</strong><br>
-            <img src="images/logo" alt="Startup" style="width:100px;">
+            <img src="images/logo-coldtrack.png" alt="Startup" style="width:150px;">
         </td>
         <td style="text-align:center;">
             <strong>TSO Mobile Perú</strong><br>
@@ -1119,7 +1119,7 @@ En esta sección, detallamos los lineamientos de diseño, estilo y apariencia vi
 **Branding:** El logotipo de **ColdTrack** ha sido diseñado para reflejar tecnología y seguridad en la cadena de frío. Los colores seleccionados transmiten profesionalismo y confianza, reforzando la identidad de una solución robusta.
 
 <p align="center">
-  <img src="../images/logo.png" alt="Logo de ColdTrack" width="20%"/>
+  <img src="images/logo-coldtrack.png" alt="Logo de ColdTrack" width="50%"/>
 </p>
 
 **Tono de Comunicación:**
