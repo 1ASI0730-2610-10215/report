@@ -784,9 +784,30 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 
 ### 2.3.1. User Personas
 
+<h5 id="SegUser">Segmento #1: Personal de Logística y Operaciones </h5>
+<img src="./images/user_persona.jpg" alt="userpersona1" width="100%">
+
+<h5 id="SegUser">Segmento #2: Personal de transporte </h5>
+<img src="./images/user_persona2.1.jpg" alt="userpersona2" width="100%">
+
+
 ### 2.3.2. User Task Matrix
+| **User Task** | **Personal de Logística y Operaciones** | **Personal de Transporte** |
+|---------------|----------------------------|------------------------|
+| Planificar rutas y tiempos | Frecuencia: Often          | Frecuencia: Rarely     |
+| Monitorear condiciones de transporte | Frecuencia: Often          | Frecuencia: Often      |
+| Analizar historial de envíos | Frecuencia: Often          | Frecuencia: Rarely     |
+| Generar reportes de desempeño | Frecuencia: Often          | Frecuencia: Never      |
+| Cumplir entregas puntuales | Frecuencia: Sometimes      | Frecuencia: Often      |
+| Comunicar incidencias | Frecuencia: Often          | Frecuencia: Often      |
+| Mantener condiciones óptimas de alimentos | Frecuencia: Sometimes      | Frecuencia: Often      |
 
 ### 2.3.3. User Journey Mapping
+<h5 id="JourUser">Segmento #1: Personal de Logística y Operaciones </h5>
+<img src="./images/us_journey.jpg" alt="userjourney1" width="100%">
+
+<h5 id="JourUser">Segmento #2: Personal de transporte </h5>
+<img src="./images/us_journey2.jpg" alt="userjourney2" width="100%">
 
 ### 2.3.4. Empathy Mapping
 
