@@ -1010,14 +1010,14 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 
 ### Epics
 
-| Epic ID | Título                     | Descripción                                                                                                          |
-| ------- | -------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| EP-001  | Gestión de Usuarios        | Permite el registro, autenticación y gestión de perfiles según tipo de usuario (Logística u Operador de Transporte). |
-| EP-002  | Gestión de Envíos          | Permite crear, visualizar y administrar los envíos monitoreados.                                                     |
-| EP-003  | Monitoreo en Tiempo Real   | Permite visualizar temperatura y humedad en tiempo real mediante sensores.                                           |
-| EP-004  | Alertas y Notificaciones   | Genera alertas automáticas ante condiciones críticas.                                                                |
-| EP-005  | Landing Page e Información | Presenta información del sistema, contacto, testimonios y suscripción.                                               |
-
+| Epic ID | Título | Descripción |
+|--------|--------|------------|
+| EP-001 | Gestión de Usuarios | Registro, autenticación y gestión de usuarios según rol (Logística o Transporte). |
+| EP-002 | Gestión de Envíos | Creación, visualización y gestión de envíos. |
+| EP-003 | Monitoreo en Tiempo Real | Visualización de temperatura y humedad desde sensores. |
+| EP-004 | Sistema de Alertas | Alertas ante condiciones críticas. |
+| EP-005 | Historial y Reportes | Registro histórico y análisis de envíos. |
+| EP-006 | Landing Page e Información | Información de la app, contacto, testimonios y equipo. |
 
 
 ### User Stories + Technical Stories
