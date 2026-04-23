@@ -1301,22 +1301,24 @@ De acuerdo con la evidencia encontrada en el repositorio y en el `README.md` del
 
 #### 5.2.1.3. Sprint Backlog 1
 
-Tomando como referencia el historial real del proyecto, las tareas desarrolladas durante la implementación pueden resumirse de la siguiente manera:
+Tomando como referencia las User Stories definidas en el Product Backlog, las historias trabajadas durante el Sprint 1 para la landing page pueden resumirse de la siguiente manera:
 
-| Id | Title | Description | Status |
-|----|-------|-------------|--------|
-| T01 | Initial project setup | Configuración inicial del proyecto y base estructural | Done |
-| T02 | Header structure | Implementación de la estructura base del header | Done |
-| T03 | Hero section | Desarrollo de la hero section con CTA principal | Done |
-| T04 | Features section | Implementación de la sección de características | Done |
-| T05 | How it works section | Desarrollo de la sección explicativa del proceso | Done |
-| T06 | Benefits section | Implementación de la sección de beneficios | Done |
-| T07 | CTA and footer | Incorporación del CTA final y footer | Done |
-| T08 | Responsive CSS | Desarrollo de estilos responsivos | Done |
-| T09 | JavaScript interactivity | Incorporación de animaciones e interacciones | Done |
-| T10 | Dashboard improvements | Mejora visual del dashboard preview | Done |
-| T11 | SEO enhancements | Incorporación de meta tags y Open Graph | Done |
-| T12 | Accessibility improvements | Ajustes de accesibilidad y navegación por teclado | Done |
+| User Story Id | User Story Title | Task Id | Task Description | Status |
+|---------------|------------------|---------|------------------|--------|
+| US-019 | Ver información de la app (Landing) | T01 | Configurar la estructura inicial del proyecto de landing page. | Done |
+| US-019 | Ver información de la app (Landing) | T02 | Implementar el header con navegación principal e identidad visual del producto. | Done |
+| US-019 | Ver información de la app (Landing) | T03 | Desarrollar la hero section con propuesta de valor y llamada a la acción. | Done |
+| US-023 | Ver funcionalidades del sistema | T04 | Implementar la sección de características principales del sistema. | Done |
+| US-023 | Ver funcionalidades del sistema | T05 | Desarrollar la sección explicativa sobre el funcionamiento de ColdTrack. | Done |
+| US-023 | Ver funcionalidades del sistema | T06 | Implementar la sección de beneficios operativos para los usuarios. | Done |
+| US-021 | Formulario de contacto | T07 | Incorporar el CTA final y el footer con información de contacto. | Done |
+| US-019 | Ver información de la app (Landing) | T08 | Desarrollar estilos responsivos para adaptar la landing page a distintos dispositivos. | Done |
+| US-019 | Ver información de la app (Landing) | T09 | Incorporar animaciones e interacciones mediante JavaScript. | Done |
+| US-023 | Ver funcionalidades del sistema | T10 | Mejorar la vista previa del dashboard para mostrar el valor del monitoreo. | Done |
+| US-019 | Ver información de la app (Landing) | T11 | Agregar meta tags y Open Graph para optimizar la presentación del sitio. | Done |
+| US-019 | Ver información de la app (Landing) | T12 | Realizar ajustes de accesibilidad y navegación por teclado. | Done |
+| US-020 | Ver testimonios | T13 | Incorporar una sección de testimonios para reforzar la confianza en la solución. | Done |
+| US-022 | Ver equipo de desarrollo | T14 | Incorporar una sección para presentar a los integrantes del equipo de desarrollo. | Done |
 
 Link del Trello: https://trello.com/invite/b/69e82f5d88b7df3fa977adbe/ATTId31bae723ab545af9d3a4c721a1b848443078604/sprint-1-freshguard-coldtrack
 
