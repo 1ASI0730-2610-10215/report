@@ -1118,6 +1118,9 @@ La sesión se llevó a cabo de manera colaborativa utilizando la herramienta Luc
 
 
 ### 4.6.2. Software Architecture Context Diagram
+<p align="center">
+  <img src="images/context_diagram.png" alt="Context Diagram" width="100%"/>
+</p>
 
 ### 4.6.3. Software Architecture Container Diagrams
 
