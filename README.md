@@ -1447,6 +1447,8 @@ Maneja la seguridad, controlando quién puede interactuar con el sistema según 
 
 ## 4.8. Database Design
 
+En esta sección se presenta el modelo relacional de la base de datos de ColdTrack. El esquema detalla las entidades principales del sistema, sus atributos y las relaciones entre ellas. Este diseño asegura la integridad referencial y soporta los módulos clave definidos en la arquitectura, como la gestión de usuarios, el registro de vehículos, la asignación de sensores y el historial de telemetría y alertas.
+
 ### 4.8.1. Database Diagram
 
 <p align="center">
