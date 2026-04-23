@@ -1010,14 +1010,16 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 
 ### Epics
 
-| Epic ID | Título | Descripción |
-|--------|--------|------------|
-| EP-001 | Gestión de Usuarios | Registro, autenticación y gestión de usuarios según rol (Logística o Transporte). |
-| EP-002 | Gestión de Envíos | Creación, visualización y gestión de envíos. |
-| EP-003 | Monitoreo en Tiempo Real | Visualización de temperatura y humedad desde sensores. |
-| EP-004 | Sistema de Alertas | Alertas ante condiciones críticas. |
-| EP-005 | Historial y Reportes | Registro histórico y análisis de envíos. |
-| EP-006 | Landing Page e Información | Información de la app, contacto, testimonios y equipo. |
+## Epics
+
+| Epic ID | Nombre del Epic | Descripción |
+|--------|----------------|------------|
+| EP-001 | Registro y Gestión de Usuarios | Como usuario (personal de logística o transporte), quiero registrarme, iniciar sesión y gestionar mi cuenta de forma segura, para acceder a ColdTrack y utilizar sus funcionalidades según mi rol. |
+| EP-002 | Gestión de Envíos | Como personal de logística, quiero crear, visualizar y gestionar envíos, para tener control completo sobre el transporte de alimentos desde su origen hasta su destino. |
+| EP-003 | Monitoreo en Tiempo Real | Como usuario, quiero visualizar en tiempo real la temperatura y humedad de los envíos mediante sensores, para asegurar que los productos se mantengan en condiciones óptimas durante el transporte. |
+| EP-004 | Sistema de Alertas | Como usuario, quiero recibir alertas automáticas ante condiciones críticas de temperatura o humedad, para tomar decisiones rápidas y evitar pérdidas de productos. |
+| EP-005 | Historial y Reportes | Como usuario, quiero acceder al historial de envíos y generar reportes, para analizar el desempeño logístico y mejorar la trazabilidad del transporte. |
+| EP-006 | Landing Page y Comunicación | Como visitante o usuario, quiero acceder a información de la aplicación, conocer sus beneficios, ver testimonios, contactar al equipo y revisar quiénes están detrás del proyecto, para evaluar el uso de ColdTrack y resolver dudas. |
 
 
 ### User Stories + Technical Stories
