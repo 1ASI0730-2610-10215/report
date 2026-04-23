@@ -55,8 +55,8 @@ El informe del proyecto se encuentra alojado en el siguiente repositorio de la o
 
 A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
 
-## TB1
-Para la primera entrega (TB1) se trabajó en la estructura inicial del informe, definiendo el índice y distribuyendo las secciones entre los miembros.
+## AV1
+Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, definiendo el índice y distribuyendo las secciones entre los miembros.
 
 ![reporteTB1.png](./images/reporteTB1.png)
 
