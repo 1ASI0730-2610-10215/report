@@ -782,7 +782,17 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Foto entrevista** | <img src="images/entrevista1-segmento1.png" alt=""  width="250" /> |
 | **Resumen** | Gianelly Vásquez, supervisora de control de calidad en transporte de alimentos refrigerados que vive en Jesús María, actualmente gestiona el monitoreo de temperatura de forma manual usando termómetros digitales, dataloggers básicos y registros en Excel, sin contar con un sistema integrado en tiempo real, lo que genera dependencia del conductor y riesgo de errores humanos; su principal problema es la falta de visibilidad durante el trayecto, ya que las fallas en la cadena de frío suelen detectarse tarde, ocasionando pérdidas de productos, especialmente en rutas largas, y dificultando una reacción oportuna ante emergencias; por ello, considera que la solución ideal debería ofrecer monitoreo en tiempo real, alertas automáticas ante variaciones de temperatura, ubicación del vehículo, historial de datos y una interfaz fácil de usar desde el celular, creyendo que una aplicación como ColdTrack podría mejorar el control, reducir pérdidas y optimizar la operación logística. |
 
-
+| **ENTREVISTA 2**        |                                                                    |
+|-------------------------|--------------------------------------------------------------------|
+| **Nombre entrevistado** | Fernando Perez                                                     |
+| **Edad**                | 51                                                                 |
+| **Profesión**           | personal de transporte                                             |
+| **Departamento**        | Lima                                                               |
+| **Inicio del video**    | 00:00                                                              |
+| **Fin del video**       | 02:06                                                              |
+| **Link del video**      | ----                                                               |
+| **Foto entrevista**     | <img src="images/entrevista2_segmento2.png" alt=""  width="250" /> |
+| **Resumen** | El entrevistado Fernando Perez, un transportista de 50 años que trabaja en la ruta Lima, explica que controla la temperatura de la carga revisando el termómetro y haciendo paradas para verificar su estado. Usa principalmente Google Maps y WhatsApp para su trabajo. Señala que los principales problemas son los cambios bruscos de temperatura, el tráfico y la falta de información inmediata ante fallas.
 ### 2.2.3. Analisis de entrevistas
 
 ## 2.3. Needfinding
@@ -790,10 +800,10 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 ### 2.3.1. User Personas
 
 <h5 id="SegUser">Segmento #1: Personal de Logística y Operaciones </h5>
-<img src="./images/user_persona.jpg" alt="userpersona1" width="100%">
+<img src="./images/persona_user.jpg" alt="userpersona1" width="100%">
 
 <h5 id="SegUser">Segmento #2: Personal de transporte </h5>
-<img src="./images/user_persona2.1.jpg" alt="userpersona2" width="100%">
+<img src="./images/persona_user2.jpg" alt="userpersona2" width="100%">
 
 
 ### 2.3.2. User Task Matrix
@@ -809,16 +819,136 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 
 ### 2.3.3. User Journey Mapping
 <h5 id="JourUser">Segmento #1: Personal de Logística y Operaciones </h5>
-<img src="./images/us_journey.jpg" alt="userjourney1" width="100%">
+<img src="./images/map_journey.jpg" alt="userjourney1" width="100%">
 
 <h5 id="JourUser">Segmento #2: Personal de transporte </h5>
-<img src="./images/us_journey2.jpg" alt="userjourney2" width="100%">
+<img src="./images/map_journey2.jpg" alt="userjourney2" width="100%">
 
 ### 2.3.4. Empathy Mapping
 
+**USER PERSONA: Raúl Gonzales**
+![Empathy Map 1](./images/Empathy-Mapping-RAUL-GONZALES.png)
+
+**USER PERSONA: Andre Montes**
+![Empathy Map 2](./images/Empathy-Mapping-ANDRE-MONTES.png)
+
 ### 2.3.5. As-is Scenario Mapping
 
+**USER PERSONA: Raúl Gonzales**
+![Scenario Mapping 1](./images/Scenario-Mapping1.jpg)
+
+**USER PERSONA: Andre Montes**
+![Scenario Mapping 2](./images/Scenario-Mapping2.jpg)
+
 ## 2.4. Ubiquitous Language
+
+### Core Domain
+
+- **Shipment (Envío):**  
+  Conjunto de productos alimenticios que se trasladan desde un centro de distribución hasta un destino final.
+
+- **Food Transportation (Transporte de Alimentos):**  
+  Proceso logístico de traslado de alimentos asegurando que mantengan su calidad durante el trayecto.
+
+- **Cold Chain (Cadena de Frío):**  
+  Sistema de control que garantiza que los alimentos se mantengan dentro de condiciones de temperatura adecuadas durante todo el transporte.
+
+- **Distribution Center (Centro de Distribución):**  
+  Instalación donde se almacenan, preparan y despachan los productos para su envío.
+
+- **Delivery Route (Ruta de Entrega):**  
+  Recorrido que realiza la unidad de transporte desde el punto de origen hasta el destino.
+
+---
+
+### Monitoring and Conditions
+
+- **Real-Time Monitoring (Monitoreo en Tiempo Real):**  
+  Supervisión continua de las condiciones ambientales de un envío durante todo su trayecto.
+
+- **Temperature (Temperatura):**  
+  Nivel de calor dentro de la unidad de transporte que influye en la conservación de los alimentos.
+
+- **Humidity (Humedad):**  
+  Nivel de humedad presente en el ambiente del transporte que puede afectar la calidad del producto.
+
+- **Environmental Conditions (Condiciones Ambientales):**  
+  Conjunto de factores como temperatura y humedad que determinan el estado de los alimentos durante el transporte.
+
+- **Optimal Range (Rango Óptimo):**  
+  Valores adecuados de temperatura y humedad que garantizan la correcta conservación de los alimentos.
+
+- **Condition Status (Estado de Condición):**  
+  Situación actual del envío en función de sus condiciones ambientales (normal, advertencia o crítico).
+
+---
+
+### Alerts and Incidents
+
+- **Alert (Alerta):**  
+  Notificación generada cuando las condiciones del envío se alejan del rango óptimo.
+
+- **Critical Alert (Alerta Crítica):**  
+  Aviso que indica una situación grave que requiere acción inmediata para evitar pérdidas.
+
+- **Warning Alert (Alerta de Advertencia):**  
+  Notificación preventiva que indica un posible riesgo antes de llegar a una condición crítica.
+
+- **Incident (Incidente):**  
+  Evento que afecta o puede afectar negativamente el estado del envío.
+
+- **Response Action (Acción de Respuesta):**  
+  Medida tomada para corregir o mitigar un problema detectado durante el transporte.
+
+---
+
+### Traceability and Control
+
+- **Traceability (Trazabilidad):**  
+  Capacidad de rastrear y conocer el estado de un envío durante todo su recorrido.
+
+- **Shipment History (Historial de Envío):**  
+  Registro de las condiciones y eventos que ocurrieron durante el transporte de un envío.
+
+- **Condition Check (Verificación de Condición):**  
+  Revisión del estado ambiental del envío en un momento determinado.
+
+---
+
+### Stakeholders
+
+- **Logistics Supervisor (Supervisor Logístico):**  
+  Persona encargada de supervisar los envíos y asegurar que se cumplan las condiciones adecuadas.
+
+- **Transport Personnel (Personal de Transporte):**  
+  Persona responsable de trasladar físicamente los productos durante la ruta.
+
+- **Quality Control Staff (Control de Calidad):**  
+  Personal encargado de verificar que los productos cumplan con los estándares de calidad.
+
+- **Distribution Company (Empresa Distribuidora):**  
+  Organización responsable de gestionar el transporte de alimentos.
+
+---
+
+### Business Impact
+
+- **Loss Event (Evento de Pérdida):**  
+  Situación en la que los productos se deterioran debido a condiciones inadecuadas durante el transporte.
+
+- **Loss Reduction (Reducción de Pérdidas):**  
+  Disminución de productos dañados gracias a un mejor control de las condiciones.
+
+- **Operational Efficiency (Eficiencia Operativa):**  
+  Mejora en los procesos logísticos que permite optimizar tiempo, costos y recursos.
+
+- **Food Safety (Seguridad Alimentaria):**  
+  Garantía de que los alimentos llegan en condiciones aptas para el consumo.
+
+- **Decision Making (Toma de Decisiones):**  
+  Proceso de elegir acciones basadas en la información disponible sobre los envíos.
+
+---
 
 # Capitulo III: Requirements Specification
 
