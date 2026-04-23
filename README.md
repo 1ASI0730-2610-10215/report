@@ -1449,6 +1449,10 @@ Maneja la seguridad, controlando quién puede interactuar con el sistema según 
 
 ### 4.8.1. Database Diagram
 
+<p align="center">
+  <img src="images/database_diagram.png" alt="Database Diagram" width="85%"/>
+</p>
+
 # Capitulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
