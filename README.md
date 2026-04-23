@@ -193,7 +193,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
               forma conjunta</th>
         <td>
          <b>Aarón Avila: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
+        Durante el desarrollo del proyecto, trabajé de manera autónoma asumiendo un rol activo en la organización de las actividades y la gestión del proyecto, ejerciendo liderazgo en la planificación y ejecución de cada etapa. Participé en la toma de decisiones relacionadas con la definición de la startup, la identificación de la problemática, la segmentación de usuarios y la elaboración de artefactos como User Personas, Empathy Maps, As-Is Scenario Mapping y Ubiquitous Language, demostrando capacidad para dirigir el proyecto de manera integral.<br>
          <b>Eslander Celis: AV1</b><br>
          Durante el desarrollo del proyecto, trabajé en equipo aportando ideas y asumiendo un rol activo en la organización de las actividades, contribuyendo al liderazgo compartido dentro del grupo. Participé en la toma de decisiones relacionadas con la definición de la startup, la problemática, los segmentos objetivos y la estructuración de los User Stories, Product Backlog e Impact Map. Además, mantuve una comunicación constante con mis compañeros, apoyando cuando era necesario y asegurando que todos estuviéramos alineados con los objetivos del proyecto.<br>
          <b>ntegrante3: AV1</b><br>
@@ -215,7 +215,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             objetivos.</th>
         <td>
           <b>Aarón Avila: AV1</b><br>
-          aaaaaaaaaaaaaa<br>
+         Durante el desarrollo del proyecto, mantuve un enfoque basado en la autoevaluación y la mejora continua, considerando diferentes perspectivas en la toma de decisiones y asegurando la coherencia del trabajo realizado. Esto me permitió simular un entorno colaborativo mediante la revisión constante de los avances, organizando las tareas de manera eficiente y garantizando el cumplimiento de los objetivos y entregables dentro de los plazos establecidos.<br>
           <b>Eslander Celis: AV1</b><br>
           Contribuí a crear un entorno colaborativo e inclusivo al respetar las ideas de cada integrante y fomentar la participación de todos. Ayudé a establecer metas claras y a planificar las tareas de manera organizada, distribuyendo responsabilidades de forma equitativa. Me aseguré de cumplir con mis entregables en los tiempos acordados, lo que permitió avanzar de manera constante y alcanzar los objetivos planteados como equipo.<br>
          <b>integrante3: AV1</b><br>
