@@ -1384,6 +1384,67 @@ La sesión se llevó a cabo de manera colaborativa utilizando la herramienta Luc
 
 ### 4.7.2. Class Dictionary
 
+A continuación, se detalla el diccionario de clases, el cual describe la responsabilidad y el propósito de las entidades, objetos de valor, agregados y servicios definidos en el diseño orientado a objetos del sistema ColdTrack.
+
+#### 1. Shipment Management (Gestión de Envíos)
+Este módulo centraliza la planificación y el estado logístico de los traslados físicos de los alimentos.
+
+| Clase / Interfaz | Estereotipo (DDD) | Descripción y Responsabilidad |
+| :--- | :--- | :--- |
+| **ShipmentAppService** | Application Service | Orquesta los casos de uso logísticos. Coordina la creación de envíos, la asignación de sensores físicos y la finalización de las rutas, delegando la persistencia al repositorio. |
+| **Shipment** | Aggregate Root | Representa un envío físico de alimentos. Gestiona su propio ciclo de vida (estado) y protege la invariante de negocio de que cada envío debe estar asociado a un sensor físico en la ruta. |
+| **Route** | Value Object | Encapsula la información de origen y destino del transporte. Al ser inmutable, cualquier cambio en la ruta requiere la creación de un nuevo objeto de valor. |
+| **ShipmentId** | Value Object | Identificador único y tipado del envío, evitando errores comunes al usar cadenas de texto (`String`) genéricas. |
+| **ShipmentStatus** | Enum | Define los estados posibles del envío: `REGISTERED` (creado), `IN_TRANSIT` (en ruta), `COMPLETED` (finalizado con éxito) y `CANCELLED`. |
+| **ShipmentRepository** | Repository | Abstracción de acceso a datos para persistir y recuperar los agregados `Shipment` de la base de datos SQL Server. |
+
+#### 2. Real-Time IoT Monitoring (Monitoreo de Telemetría)
+Este contexto está enfocado exclusivamente en la ingesta, validación e hidratación de los datos capturados por el hardware.
+
+| Clase / Interfaz | Estereotipo (DDD) | Descripción y Responsabilidad |
+| :--- | :--- | :--- |
+| **TelemetryAppService** | Application Service | Expone los puertos de entrada para recibir la data en tiempo real desde los sensores vía WebSockets o API REST, y facilita la consulta del historial de un sensor. |
+| **TelemetryStream** | Aggregate Root | Actúa como un contenedor lógico de todas las lecturas de un sensor específico. Garantiza el orden cronológico y la agrupación de los datos durante un viaje. |
+| **TelemetryLog** | Entity | Representa una captura de telemetría individual en un momento exacto del tiempo. |
+| **Temperature** | Value Object | Encapsula el valor numérico de la temperatura y su unidad (Celsius). Contiene lógica intrínseca para validar si el valor se encuentra dentro de un rango seguro establecido. |
+| **Humidity** | Value Object | Encapsula el porcentaje de humedad relativa, validando que el valor matemático ingresado tenga sentido (por ejemplo, entre 0% y 100%). |
+| **TelemetryRepository** | Repository | Interfaz encargada de la persistencia de alto rendimiento para el gran volumen de logs de telemetría generados durante la ruta. |
+
+#### 3. Alerting Engine (Motor de Alertas)
+Responsable de evaluar anomalías en las condiciones ambientales e interactuar con servicios externos para notificar a los actores.
+
+| Clase / Interfaz | Estereotipo (DDD) | Descripción y Responsabilidad |
+| :--- | :--- | :--- |
+| **AlertAppService** | Application Service | Ejecuta el flujo de evaluación. Si detecta una anomalía mediante el `ThresholdPolicy`, crea una alerta y coordina con el `NotificationGateway` el envío del mensaje. |
+| **Alert** | Aggregate Root | Entidad principal que registra una incidencia crítica (ej. ruptura de cadena de frío). Controla cuándo fue disparada, si el conductor ya la reconoció y si fue resuelta. |
+| **ThresholdPolicy** | Domain Service | Contiene la lógica de dominio pura (umbrales permitidos) para determinar si las condiciones de temperatura actuales violan la seguridad alimentaria. |
+| **AlertId** | Value Object | Identidad única inmutable de la alerta generada. |
+| **AlertType** | Enum | Categoriza la anomalía: `CRITICAL_TEMPERATURE`, `HIGH_HUMIDITY` o `SENSOR_DISCONNECTED`. |
+| **AlertStatus** | Enum | Gestiona el ciclo de atención: `TRIGGERED` (disparada), `ACKNOWLEDGED` (vista por el conductor) y `RESOLVED` (solucionada). |
+| **NotificationGateway** | Gateway (Interface) | Abstracción (Puerto) para integrarse con servicios externos como Twilio o Firebase para disparar SMS o notificaciones Push. |
+
+#### 4. Analytics & Reporting (Analítica y Reportes)
+Módulo encargado de consolidar la información histórica para facilitar la toma de decisiones gerenciales.
+
+| Clase / Interfaz | Estereotipo (DDD) | Descripción y Responsabilidad |
+| :--- | :--- | :--- |
+| **AnalyticsAppService** | Application Service | Coordina la solicitud de reportes. Filtra el historial de un envío y delega la construcción del archivo físico al motor generador de PDF. |
+| **Report** | Aggregate Root | Un consolidado del rendimiento de un envío finalizado. Almacena métricas pre-calculadas (como el total de alertas disparadas) para consultas eficientes. |
+| **HistoricalLog** | Entity | Un registro plano, desnormalizado y optimizado para la lectura, diseñado para conformar las filas de datos en los reportes exportables. |
+| **DateRange** | Value Object | Encapsula una fecha de inicio y una de fin, garantizando que el inicio no sea posterior al fin del rango temporal. |
+| **PdfGeneratorService** | Domain Service | Motor interno que se encarga de formatear la data de dominio y compilarla en un documento PDF descargable. |
+
+#### 5. Identity & Access (Gestión de Identidad y Accesos)
+Maneja la seguridad, controlando quién puede interactuar con el sistema según su rol.
+
+| Clase / Interfaz | Estereotipo (DDD) | Descripción y Responsabilidad |
+| :--- | :--- | :--- |
+| **AuthAppService** | Application Service | Procesa las solicitudes de registro, inicio de sesión y recuperación de contraseña, apoyándose en el `TokenProvider`. |
+| **UserAccount** | Aggregate Root | Representa las credenciales y el estado (activo/inactivo) de un trabajador. Controla el acceso basado en sus roles y protege la seguridad de la contraseña cifrada. |
+| **EmailAddress** | Value Object | Asegura que toda cadena de texto utilizada como correo electrónico pase una validación de formato (Regex) antes de interactuar con el sistema. |
+| **UserRole** | Enum | Define los niveles de acceso del sistema. Principalmente `LOGISTICS_ADMIN` (para el dashboard web) y `DRIVER` (para recibir alertas). |
+| **TokenProvider** | Domain Service | Servicio responsable de emitir los JWT (JSON Web Tokens) que las aplicaciones web y móviles usarán para mantener la sesión abierta de manera segura. |
+
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagram
