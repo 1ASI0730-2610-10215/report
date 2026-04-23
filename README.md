@@ -782,7 +782,17 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Foto entrevista** | <img src="images/entrevista1-segmento1.png" alt=""  width="250" /> |
 | **Resumen** | Gianelly Vásquez, supervisora de control de calidad en transporte de alimentos refrigerados que vive en Jesús María, actualmente gestiona el monitoreo de temperatura de forma manual usando termómetros digitales, dataloggers básicos y registros en Excel, sin contar con un sistema integrado en tiempo real, lo que genera dependencia del conductor y riesgo de errores humanos; su principal problema es la falta de visibilidad durante el trayecto, ya que las fallas en la cadena de frío suelen detectarse tarde, ocasionando pérdidas de productos, especialmente en rutas largas, y dificultando una reacción oportuna ante emergencias; por ello, considera que la solución ideal debería ofrecer monitoreo en tiempo real, alertas automáticas ante variaciones de temperatura, ubicación del vehículo, historial de datos y una interfaz fácil de usar desde el celular, creyendo que una aplicación como ColdTrack podría mejorar el control, reducir pérdidas y optimizar la operación logística. |
 
-
+| **ENTREVISTA 2**        |                                                                    |
+|-------------------------|--------------------------------------------------------------------|
+| **Nombre entrevistado** | Fernando Perez                                                     |
+| **Edad**                | 51                                                                 |
+| **Profesión**           | personal de transporte                                             |
+| **Departamento**        | Lima                                                               |
+| **Inicio del video**    | 00:00                                                              |
+| **Fin del video**       | 02:06                                                              |
+| **Link del video**      | ----                                                               |
+| **Foto entrevista**     | <img src="images/entrevista2_segmento2.png" alt=""  width="250" /> |
+| **Resumen** | El entrevistado Fernando Perez, un transportista de 50 años que trabaja en la ruta Lima, explica que controla la temperatura de la carga revisando el termómetro y haciendo paradas para verificar su estado. Usa principalmente Google Maps y WhatsApp para su trabajo. Señala que los principales problemas son los cambios bruscos de temperatura, el tráfico y la falta de información inmediata ante fallas.
 ### 2.2.3. Analisis de entrevistas
 
 ## 2.3. Needfinding
@@ -790,10 +800,10 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 ### 2.3.1. User Personas
 
 <h5 id="SegUser">Segmento #1: Personal de Logística y Operaciones </h5>
-<img src="./images/user_persona.jpg" alt="userpersona1" width="100%">
+<img src="./images/persona_user.jpg" alt="userpersona1" width="100%">
 
 <h5 id="SegUser">Segmento #2: Personal de transporte </h5>
-<img src="./images/user_persona2.1.jpg" alt="userpersona2" width="100%">
+<img src="./images/persona_user2.jpg" alt="userpersona2" width="100%">
 
 
 ### 2.3.2. User Task Matrix
@@ -809,10 +819,10 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 
 ### 2.3.3. User Journey Mapping
 <h5 id="JourUser">Segmento #1: Personal de Logística y Operaciones </h5>
-<img src="./images/us_journey.jpg" alt="userjourney1" width="100%">
+<img src="./images/map_journey.jpg" alt="userjourney1" width="100%">
 
 <h5 id="JourUser">Segmento #2: Personal de transporte </h5>
-<img src="./images/us_journey2.jpg" alt="userjourney2" width="100%">
+<img src="./images/map_journey2.jpg" alt="userjourney2" width="100%">
 
 ### 2.3.4. Empathy Mapping
 
