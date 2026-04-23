@@ -188,46 +188,25 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         <th>CONCLUSIONES</th>
     </tr>
     <tr>
-        <th> Trabaja en equipo para
-              proporcionar liderazgo en
-              forma conjunta</th>
+        <th> Comunica oralmente con efectividad a diferentes rangos de audiencia.</th>
         <td>
-         <b>Aarón Avila: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
-         <b>Eslander Celis: AV1</b><br>
-         Durante el desarrollo del proyecto, trabajé en equipo aportando ideas y asumiendo un rol activo en la organización de las actividades, contribuyendo al liderazgo compartido dentro del grupo. Participé en la toma de decisiones relacionadas con la definición de la startup, la problemática, los segmentos objetivos y la estructuración de los User Stories, Product Backlog e Impact Map. Además, mantuve una comunicación constante con mis compañeros, apoyando cuando era necesario y asegurando que todos estuviéramos alineados con los objetivos del proyecto.<br>
-         <b>ntegrante3: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
-         <b>ntegrante4: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
-         <b>ntegrante5: AV1</b><br>
+          <b>Aarón Avila: TB1</b><br>
          aaaaaaaaaaaaaaaaaaa<br>
         </td>
         <td>
-          <b>AV1</b><br>
-          El equipo logró trabajar de manera conjunta, compartiendo responsabilidades y asumiendo un liderazgo distribuido que permitió organizar mejor las actividades y tomar decisiones de forma eficiente. La participación activa de todos los integrantes facilitó la coordinación en el desarrollo de entregables como los User Stories, el Product Backlog y el Impact Map, generando un ambiente de confianza y compromiso. Esto contribuyó a mantener al equipo alineado y enfocado en los objetivos del proyecto. <br><br>
+          <b>TB1</b><br>
+          En conclusión, <br><br>
         </td>
     </tr>
     <tr>
-        <th>Crea un entorno colaborativo e
-            inclusivo, establece metas,
-            planifica tareas y cumple
-            objetivos.</th>
+        <th>Comunica por escrito con efectividad a diferentes rangos de audiencia.</th>
         <td>
-          <b>Aarón Avila: AV1</b><br>
+          <b>Aarón Avila: TB1</b><br>
           aaaaaaaaaaaaaa<br>
-          <b>Eslander Celis: AV1</b><br>
-          Contribuí a crear un entorno colaborativo e inclusivo al respetar las ideas de cada integrante y fomentar la participación de todos. Ayudé a establecer metas claras y a planificar las tareas de manera organizada, distribuyendo responsabilidades de forma equitativa. Me aseguré de cumplir con mis entregables en los tiempos acordados, lo que permitió avanzar de manera constante y alcanzar los objetivos planteados como equipo.<br>
-         <b>integrante3: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
-         <b>ntegrante4: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
-         <b>ntegrante5: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
         </td>
         <td>
-          <b>AV1:</b><br>
-          Se consolidó un entorno colaborativo e inclusivo donde se respetaron las ideas de cada integrante y se promovió la participación equitativa. El equipo estableció metas claras, planificó las tareas de manera organizada y cumplió con los plazos establecidos, lo que permitió avanzar de forma constante. Esta dinámica de trabajo favoreció la calidad de los resultados y aseguró el cumplimiento de los objetivos propuestos. <br><br>
+          <b>TB1:</b><br>
+          En conclucion, <br><br>
         </td>
     </tr>
 </table>
@@ -814,6 +793,20 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Link del video**      | ----                                                               |
 | **Foto entrevista**     | <img src="images/entrevista2_segmento2.png" alt=""  width="250" /> |
 | **Resumen** | El entrevistado Fernando Perez, un transportista de 50 años que trabaja en la ruta Lima, explica que controla la temperatura de la carga revisando el termómetro y haciendo paradas para verificar su estado. Usa principalmente Google Maps y WhatsApp para su trabajo. Señala que los principales problemas son los cambios bruscos de temperatura, el tráfico y la falta de información inmediata ante fallas.
+
+| **ENTREVISTA 3**        |                                                                    |
+|-------------------------|--------------------------------------------------------------------|
+| **Nombre entrevistado** | Gianmarco Palacios                                                 |
+| **Edad**                | 33                                                                 |
+| **Profesión**           | Encargado de area de abastecimiento                                |
+| **Departamento**        | Arequipa                                                           |
+| **Inicio del video**    | 00:00                                                              |
+| **Fin del video**       | 00:00                                                              |
+| **Link del video**      | ----                                                               |
+| **Foto entrevista**     | <img src="images/entrevista3_segmento3.png" alt=""  width="250" /> |
+| **Resumen** | Gianmarco Palacios, con 5 años de experiencia en logística, gestiona el monitoreo de temperatura y humedad mediante sensores y módulos integrados ("in-house"). Su principal problema es la pérdida de conectividad y la demora en el envío de información en ciertas rutas, lo que dificulta el control total de la cadena de frío. Aunque no ha tenido incidentes críticos recientemente, reporta pérdidas de productos 1 o 2 veces al mes debido a fallas en el sistema o envíos incorrectos. Está abierto a implementar nuevas soluciones tecnológicas siempre que sean eficaces y de baja complejidad de hardware. Considera indispensable que una plataforma ofrezca alertas en tiempo real multicanal (app y mensajería como WhatsApp) para permitir una reacción oportuna ante cualquier contingencia.
+
+
 ### 2.2.3. Analisis de entrevistas
 
 ## 2.3. Needfinding
@@ -1274,6 +1267,10 @@ La sesión se llevó a cabo de manera colaborativa utilizando la herramienta Luc
 </p>
 
 ### 4.6.3. Software Architecture Container Diagrams
+
+<p align="center">
+  <img src="images/container_diagram.png" alt="Container Diagram" width="100%"/>
+</p>
 
 ### 4.6.3. Software Architecture Components Diagrams
 
