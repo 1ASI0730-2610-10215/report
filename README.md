@@ -140,9 +140,10 @@ Insights TB1 (Todos participaron):
   * [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   * [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
 
-    * [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-    * [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-    * [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+    * [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+    * [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    * [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    * [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
   * [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
 
     * [4.7.1. Class Diagrams](#471-class-diagrams)
@@ -1073,10 +1074,48 @@ Sección de impacto operativo y enlaces de navegación secundaria.
 ## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
+En esta sección, el equipo profundiza en la arquitectura de software para la solución ColdTrack, tomando como base los hitos alcanzados durante el Big Picture Event Storming. 
+El objetivo es realizar una transición desde el entendimiento del negocio hacia un modelo técnico riguroso bajo la perspectiva de Domain-Driven Design (DDD).
 
-### 4.6.1. Software Architecture Context Diagram
+Este enfoque permite delimitar los Bounded Contexts necesarios para separar responsabilidades críticas, como el monitoreo IoT en tiempo real, la gestión logística de los envíos y el motor automatizado de alertas tempranas. 
+A través de esta metodología, se han identificado los Aggregates, Events, Commands y Queries que garantizan la integridad de la lógica de negocio en cada etapa del transporte de carga refrigerada y la conservación de la cadena de frío.
 
-### 4.6.2. Software Architecture Container Diagrams
+Finalmente, se presenta y explica la representación visual de la arquitectura utilizando el C4 Model. 
+Esta estructura jerárquica nos permite comunicar de manera efectiva la solución a través de tres niveles de detalle: el Software Architecture Context Level Diagram, los Software Architecture Container Level Diagrams y los Software Architecture Component Diagrams.
+
+### 4.6.1. Design-Level Event Storming
+La sesión se llevó a cabo de manera colaborativa utilizando la herramienta Lucidchart y se estructuró en las siguientes actividades clave: 
+
+1. Refinamiento de Eventos de Dominio
+2. Identificación de Comandos y Actores
+3. Definición de Agregados (Aggregates)
+4. Delimitación de Bounded Contexts
+5. Integración de Sistemas Externos y Queries
+
+<p align="center">
+  <img src="images/event_storming_1.png" alt="Design-Level Event Storming 1" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="images/event_storming_2.png" alt="Design-Level Event Storming 2" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="images/event_storming_3.png" alt="Design-Level Event Storming 3" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="images/event_storming_4.png" alt="Design-Level Event Storming 4" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="images/event_storming_5.png" alt="Design-Level Event Storming 5" width="100%"/>
+</p>
+
+
+### 4.6.2. Software Architecture Context Diagram
+
+### 4.6.3. Software Architecture Container Diagrams
 
 ### 4.6.3. Software Architecture Components Diagrams
 
