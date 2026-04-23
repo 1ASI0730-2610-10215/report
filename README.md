@@ -1136,127 +1136,315 @@ A continuación, se describe el proceso por el cual organizamos, gestionamos y c
 
 ### 5.1.1. Software Development Environment Configuration.
 
-Gestión de las necesidades
+En esta sección se describen las herramientas utilizadas durante el desarrollo de la landing page de **ColdTrack**, producto digital de la startup **FreshGuard Technologies**. El objetivo de esta solución fue presentar de forma clara la propuesta de valor del sistema, mostrar sus principales funcionalidades y ofrecer una experiencia visual moderna, accesible y responsiva.
 
-- Trello: Herramienta utilizada para gestionar el flujo de trabajo de proyectos principalmente marcos en red de trabajos ágiles. El segmento para visualizar y actualizar el estado real de las tareas e historias de usuario pertenecientes al sprint a desarrollado.
+Las herramientas empleadas en el proyecto se clasifican en el siguiente orden:
 
-  Ruta de referencia:https://trello.com/es
+- Producto UX/UI Design
+- Software Development
+- Software Deployment
 
-Diseño UX/UI
+**Producto UX/UI Design**
 
-- Figma: Plataforma de elaboración de prototipos y edición gráfica, principalmente utilizada para el diseño digital. En el caso del proyecto, se utilizó para el prototipado de la aplicación y sus versiones de Desktop y Mobile Web Browser.
+- **Figma**: utilizado como referencia visual para definir la estructura, distribución de secciones y estilo general de la landing page.
 
-  Ruta de referencia: https://www.figma.com/login
+**Software Development**
 
-- Lucidchart: Aplicación para diagramar flujos. Será empleado para el diseño de flujos de cable, flujos de usuario y el diagrama de clases asociadas a la aplicación.
-  Ruta de referencia: https://www.lucidchart.com/
+- **Visual Studio Code**: editor de código utilizado para implementar el proyecto.
+- **Git**: sistema de control de versiones empleado para registrar y organizar los cambios.
+- **GitHub**: plataforma utilizada para alojar el repositorio remoto del proyecto.
+- **HTML5**: lenguaje de marcado usado para estructurar el contenido de la página.
+- **CSS3**: lenguaje de estilos utilizado para el diseño visual, la responsividad y las animaciones.
+- **JavaScript**: lenguaje usado para añadir interactividad en la navegación y animaciones visuales.
+- **Navegador web moderno**: entorno de validación para revisar visualización, comportamiento e interacción.
 
-Desarrollo de software
+**Software Deployment**
 
-- Visual Studio Code: Entorno de desarrollo integrado elegido para la elaboración y compilación de los factores de control por dominio por parte de los integrantes del equipo de trabajo. Utilizar este IDE supone valor para el desarrollo del proyecto puesto que incluye la posibilidad de añadir extensiones de utilidad, soporte de edición de texto en múltiples lenguajes de programación, disponibilidad en varios sistemas, operativos entre otros beneficios.
-  Ruta de referencia: https://code.visualstudio.com/
-
-- HTML5: HyperText Markup Language, o siglas por sus HTML, es un lenguaje de etiquetado para páginas web. Será empleado en el desarrollo del proyecto para la presentación del contenido en la aplicación.
-  Ruta de referencia: https://www.w3schools.com/html/html5-syntax.asp
-
-- CSS: Hojas de estilo en cascada es un lenguaje que maneja el diseño y presentación de las páginas web, el que va de la mano con HTML.
-  Ruta de referencia: https://google.github.io/styleguide/htmlcssguide.html
-
-- Bootstrap: Marco CSS que crea motores web de forma rápida y eficiente. Bootstrap se utilizará para la creación de la interfaz responsiva, asegurando que la plataforma funcione correctamente en distintos dispositivos.
-  Ruta de referencia: https://getbootstrap.com/
-
-Implementación de software
-
-- Git: Una herramienta de control de versiones que facilitan el registro y la gestión de las versiones distintas del programa. Su propósito es mantener un historial de cambios y simplificar el corrección de errores. Los integrantes del equipo A través de la línea de comandos en sus sistemas locales.
-
-  Ruta de referencia: https://git-scm.com/
-
-  Documentación y gestión de proyectos de software
-
-- Github: Una plataforma en la nube que hospedará los repositorios de código del proyecto. Permitir la colaboración en tiempo real y la revisión de las contribuciones de cada miembro del equipo. Los integrantes del equipo se puede acceder a través de sus navegadores web.
-  Ruta de referencia: https://github.com/
-
+- **GitHub Pages**: servicio de despliegue utilizado para publicar la landing page como sitio estático.
 
 ### 5.1.2. Source Code Management
 
+Para la gestión del código fuente se utilizó **GitHub** como plataforma central de versionamiento y almacenamiento del proyecto. El repositorio principal identificado para la landing page es el siguiente:
+
+- **Repositorio de la Landing Page**: https://github.com/1ASI0730-2610-10215/Landing-Page
+
+El proyecto fue desarrollado mediante una estrategia de trabajo basada en ramas, permitiendo separar mejoras funcionales, optimizaciones visuales y correcciones específicas antes de su integración a la rama principal.
+
+**Modelo de ramificación**
+
+La estructura de ramas encontrada en el repositorio es la siguiente:
+
+- `main`: rama principal del proyecto, donde se consolida la versión estable.
+- `features/dashboard-improvements`: rama orientada a mejorar la apariencia y comportamiento del dashboard preview mostrado en la hero section.
+- `features/seo-enhancements`: rama dedicada a la incorporación de mejoras SEO y etiquetas Open Graph.
+- `bugfix/accessibility-improvements`: rama destinada a correcciones de accesibilidad, incluyendo estilos de foco y atributos ARIA.
+
+Este enfoque permitió mantener el desarrollo organizado y evidenciar una evolución progresiva del producto.
+
+**Estilo de commits**
+
+El historial del repositorio muestra el uso de mensajes de commit consistentes, alineados con una convención tipo **Conventional Commits**. Algunos ejemplos reales del proyecto son:
+
+- `feat: initial project setup`
+- `feat: add hero section with title and CTA`
+- `feat: add responsive CSS styles`
+- `feat: add JavaScript interactivity`
+- `fix: improve mobile responsiveness and add mobile-specific styles`
+- `fix: add ARIA labels for accessibility`
+
+Los prefijos observados se interpretan de la siguiente forma:
+
+- `feat`: incorporación de una nueva funcionalidad o mejora visible.
+- `fix`: corrección de errores o ajustes sobre funcionalidades existentes.
+  
 ### 5.1.3. Source Code Style Guide & Conventions
 Para garantizar coherencia, mantenibilidad y escalabilidad del código, se establecen las siguientes normas de estilo:
 
 1.  HTML
-    Estructura básica
+- El archivo principal del proyecto es `index.html`.
+- Se utilizan etiquetas semánticas como `header`, `nav`, `section` y `footer`.
+- Las secciones de la página están organizadas de forma clara: encabezado, hero, características, cómo funciona, beneficios, CTA y footer.
+- Se añadieron metadatos como `description`, `keywords`, `author` y propiedades Open Graph.
+- Se incorporaron atributos de accesibilidad en elementos clave del documento.
 
-              <!DOCTYPE html>
-              HTM lang = " es ">
+2.  CSS
+- Los estilos están centralizados en el archivo `css/styles.css`.
+- Se emplean variables CSS en `:root` para colores, espaciados y transiciones.
+- Las clases siguen nombres semánticos con palabras separadas por guiones, por ejemplo: `header-content`, `nav-menu`, `feature-card`, `shipment-card`.
+- Se incluyen estilos responsivos para escritorio, tableta y móvil.
+- Se aplican efectos visuales como transiciones, hover states, sombras y focus styles.
 
-         - Reglas generales:
-            - Todos los elementos deben estar correctamente cerrados
+3.  JavaScript
+- La lógica de interacción se implementa en `js/script.js`.
+- Se usa `DOMContentLoaded` para iniciar la carga de eventos una vez disponible el DOM.
+- Se utilizan nombres descriptivos en camelCase como `navLinks`, `featureCards`, `shipmentCards` y `observerOptions`.
+- La funcionalidad incluye smooth scrolling, animaciones de entrada y actualización visual del dashboard preview.
 
-                   (ej. <img />, <div></div>).
-
-             - Usar comillas dobles (" ") en atributos que contengan espacios.
-
-             - Incluir atributos esenciales en imágenes.
-
-1.  CSS
-
-    Formato:
-
-    - Sangría: 2 espacios (sin pestañas).
-
-    - Minúsculas en Selectores, propiedades y valores.
-
-    - Empiteación en blanco innecesarios y líneas vacías redundantes.
-
-1.  Tailwind
-
-    Principios:
-
-    - Aprovechar al máximo las utilidades predefinidas (sistema de red, componentes, ayudantes).
-
-    - Evitar sobrescribir estilos base; usar clases contextuales (ej. bg-primary, text-success).
-
-    - Solo agrega CSS personalizado.
-
-1.  vue.js
-
+4.  vue.js
+   
     Reglas clave:
-
     - Nombres de Compentes: PascalCase(Ej: UserProfile.vue)
     - Props: Definir tipos y valores por defecto.
       
 ### 5.1.4. Software Deployment Configuration
 
+La estrategia de despliegue adoptada para ColdTrack corresponde a la publicación de una landing page estática mediante **GitHub Pages**. Esta decisión fue adecuada debido a que el proyecto está compuesto únicamente por archivos HTML, CSS y JavaScript, sin dependencias de servidor, base de datos o procesamiento backend.
+
 #### Despliegue de la Landing Page en GitHub Pages
+
+GitHub Pages fue seleccionado como mecanismo de publicación por su integración directa con el repositorio, facilidad de configuración y compatibilidad con sitios estáticos. Esto permite que la landing page pueda ser publicada desde la rama principal del proyecto y visualizada mediante una URL pública.
 
 #### Consideraciones previas al despliegue
 
+Antes del despliegue, se consideraron los siguientes aspectos:
+
+- mantener una estructura de archivos estática y ordenada,
+- asegurar rutas relativas correctas entre HTML, CSS y JavaScript,
+- conservar en `main` la versión estable del proyecto,
+- validar el comportamiento responsivo y la correcta carga visual de la página.
+
 #### Pasos de despliegue
 
-#### Despliegue de la Frontend Web Application en Vercel
+1. Crear o actualizar el repositorio remoto en GitHub.
+2. Subir los archivos principales del proyecto: `index.html`, `css/styles.css` y `js/script.js`.
+3. Ingresar a la configuración del repositorio.
+4. Habilitar GitHub Pages.
+5. Seleccionar la rama `main` y la carpeta raíz como fuente de publicación.
+6. Esperar la generación de la URL pública del sitio.
 
-#### Pasos de despliegue
+#### Repositorio: https://github.com/1ASI0730-2610-10215/Landing-Page
+#### URL desplegada: https://1asi0730-2610-10215.github.io/Landing-Page
+   
+## 5.2. Landing Page, Services & Applications Implementation 
 
-#### Despliegue de los Web Services (Backend) en Azure
-
-#### Pasos de despliegue
-
-## 5.2. Landing Page, Services & Applications Implementation
+La presente implementación corresponde al desarrollo de la landing page de **ColdTrack**, enfocada en comunicar la propuesta de valor del producto: monitoreo en tiempo real para el transporte de alimentos. La solución fue construida como una página estática, moderna y responsiva, diseñada para presentar de forma clara las capacidades del sistema.
 
 ### 5.2.1. Sprint 1
 
+Dado que la evidencia disponible del proyecto se concentra en el repositorio, el historial de commits y la documentación técnica local, esta sección adapta el desarrollo realizado en un único sprint principal orientado a la implementación progresiva de la landing page.
+
 #### 5.2.1.1. Sprint Planning 1
+
+El equipo de desarrollo se reunió virtualmente para definir los objetivos, tareas y entregables del primer sprint, el cual tendrá una duración de una semana. El enfoque principal será el desarrollo y despliegue de la landing page del proyecto en GitHub Pages, asegurando que el producto inicial esté operativo y sirva como base sólida para las siguientes iteracciones.
+
+| Sprint                             | Sprint 1                                                                                                                                                                                     |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                    | Sprint Planning Background                                                                                                                                                                   |
+| Date                               | 2026/04/17                                                                                                                                                                                   |
+| Time                               | 19:28 PM                                                                                                                                                                                     |
+| Location                           | El desarrollo de la reunión se hizo virtualmente por medio de Discord                                                                                                                        |
+| Prepared By                        | Eslander Celis Berrospi                                                                                                                                                                      |
+| Attendees (to planning meeting)    | Eslander Celis Berrospi, Gabriel Mendoza Palacios, Rodrigo Oblitas Alcalde, Aarón Avila Palacios, Mathias Arechaga Saavedra	                                                               |
+| Sprint n – 1 Review Summary        | En este primer sprint se asignaron responsabilidades a cada integrante y se planteó los requerimientos para el desarrollo de la Landing Page.                                                |
+| Sprint n – 1 Retrospective Summary | En esta sección todos los integrantes mencionaron tener aciertos en partes del código y en otras partes poder mejorar sus habilidades realizando la Landing Page                             |
+|                                    |Sprint Goal & User Stories                                                                                                                                                                    |
+| Sprint 1 Goal                      | Desarrollar y desplegar la landing page funcional en Github Pages, garantizando que cumpla con los requisitos básicos de diseño, contenido y accesibilidad para servir como base de proyecto |
+| Sprint 1 Velocity                  | 8                                                                                                                                                                                            |
+| Sum of Story Points                | 8                                                                                                                                                                                            |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
+De acuerdo con la evidencia encontrada en el repositorio y en el `README.md` del proyecto, el desarrollo de esta landing page fue implementado principalmente por **Rodrigo Oblitas Alcalde**.
+
+| Team Member | Referencia | Landing Page |
+|------------|------------|--------------|
+| Rodrigo Oblitas Alcalde | Repositorio `1ASI0730-2610-10215/Landing-Page` | L |
+| Eslander Celis | Colaborador de accesibilidad y soporte documental | C |
+| Mathias Aréchaga | Colaborador en mejoras visuales del dashboard preview | C |
+| Aarón Avila | Colaborador en optimizaciones SEO y metadatos | C |
+| Mariano Vilela | Colaborador en secciones visuales y estilos responsivos | C |
+| Gabriel Mendoza | Colaborador en mejoras visuales complementarias e iconografía | C |
+
 #### 5.2.1.3. Sprint Backlog 1
+
+Tomando como referencia el historial real del proyecto, las tareas desarrolladas durante la implementación pueden resumirse de la siguiente manera:
+
+| Id | Title | Description | Status |
+|----|-------|-------------|--------|
+| T01 | Initial project setup | Configuración inicial del proyecto y base estructural | Done |
+| T02 | Header structure | Implementación de la estructura base del header | Done |
+| T03 | Hero section | Desarrollo de la hero section con CTA principal | Done |
+| T04 | Features section | Implementación de la sección de características | Done |
+| T05 | How it works section | Desarrollo de la sección explicativa del proceso | Done |
+| T06 | Benefits section | Implementación de la sección de beneficios | Done |
+| T07 | CTA and footer | Incorporación del CTA final y footer | Done |
+| T08 | Responsive CSS | Desarrollo de estilos responsivos | Done |
+| T09 | JavaScript interactivity | Incorporación de animaciones e interacciones | Done |
+| T10 | Dashboard improvements | Mejora visual del dashboard preview | Done |
+| T11 | SEO enhancements | Incorporación de meta tags y Open Graph | Done |
+| T12 | Accessibility improvements | Ajustes de accesibilidad y navegación por teclado | Done |
+
+Link del Trello: https://trello.com/invite/b/69e82f5d88b7df3fa977adbe/ATTId31bae723ab545af9d3a4c721a1b848443078604/sprint-1-freshguard-coldtrack
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
+El desarrollo del producto se realizó de forma incremental. A continuación, se presentan algunos de los commits más representativos del proceso:
+
+| Repository | Branch | Commit Id | Autor | Commit Message | Fecha |
+|------------|--------|-----------|-------|----------------|-------|
+| Landing-Page | `main` | `5ce9ead` | Rodrigo Oblitas | `feat: initial project setup` | 12/05/2025 |
+| Landing-Page | `main` | `0fd3953` | Rodrigo Oblitas | `feat: add basic HTML structure with header` | 13/05/2025 |
+| Landing-Page | `main` | `b0f9279` | Rodrigo Oblitas | `feat: add hero section with title and CTA` | 13/05/2025 |
+| Landing-Page | `main` | `be25150` | Mariano Vilela | `feat: add features section` | 14/05/2025 |
+| Landing-Page | `main` | `388e262` | Mathias Aréchaga | `feat: add CTA and footer sections` | 14/05/2025 |
+| Landing-Page | `main` | `5a9590e` | Mariano Vilela | `feat: add responsive CSS styles` | 15/05/2025 |
+| Landing-Page | `main` | `a9e7c80` | Eslander Celis | `feat: add JavaScript interactivity` | 15/05/2025 |
+| Landing-Page | `main` | `fea423b` | Gabriel Mendoza | `feat: add icons to feature cards` | 16/05/2025 |
+| Landing-Page | `features/dashboard-improvements` | `d72c4a6` | Mathias Aréchaga | `feat: improve dashboard styling` | 18/05/2025 |
+| Landing-Page | `features/seo-enhancements` | `df123a2` | Aarón Avila | `feat: add SEO meta tags` | 19/05/2025 |
+| Landing-Page | `bugfix/accessibility-improvements` | `0cd942e` | Eslander Celis | `fix: add ARIA labels for accessibility` | 20/05/2025 |
+
+Estas evidencias muestran una evolución progresiva desde la estructura base del sitio hasta una versión más completa, optimizada y accesible.
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
+
+La implementación final de ColdTrack quedó organizada en una sola página principal compuesta por secciones claramente diferenciadas:
+
+- **Header**: navegación principal con identidad visual del producto.
+  
+  ![Header](./images/header-landing.png)
+  
+- **Hero Section**: presentación de la propuesta de valor y botones de llamada a la acción.
+  
+  ![Hero Section](./images/hero-section-landing.png)
+  
+- **Dashboard Preview**: simulación visual de monitoreo en tiempo real mediante tarjetas de envíos activos.
+
+  ![Dashboard Preview](./images/dashboard-preview-landing.png)
+  
+- **Features Section**: exposición de las capacidades principales del sistema.
+
+  ![Features](./images/features-landing.png)
+  
+- **How It Works Section**: explicación resumida del flujo operativo del producto.
+
+   ![How It](./images/how-it-landing.png)
+  
+- **Benefits Section**: presentación de ventajas operativas para el usuario.
+
+   ![Benefits](./images/benifits-landing.png)
+  
+- **CTA Section**: sección final orientada a reforzar el interés en la solución.
+
+  ![CTA](./images/cta-landing.png)
+  
+- **Footer**: bloque final con navegación complementaria e información general.
+
+  ![Footer](./images/footer-landing.png)
+
+Desde el punto de vista técnico, la implementación se concentra en:
+
+- `index.html` como archivo estructural principal,
+- `css/styles.css` como archivo de estilos,
+- `js/script.js` como archivo de interactividad.
+
+Además, el proyecto incluye una estructura HTML semántica, aproximadamente **595 líneas de CSS** y aproximadamente **97 líneas de JavaScript**, con separación clara entre contenido, presentación y comportamiento.
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+Esta sección no aplica a la presente entrega, ya que el proyecto desarrollado corresponde únicamente a una landing page estática y no incorpora APIs, endpoints ni servicios backend documentados.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+La landing page fue preparada para su publicación mediante **GitHub Pages**, utilizando la rama `main` como base del despliegue.
+
+- Plataforma de despliegue: **GitHub Pages**
+- Rama de publicación: **main**
+- Tipo de aplicación: **sitio web estático**
+- Repositorio fuente: https://github.com/1ASI0730-2610-10215/Landing-Page
+- desplegue de la landing page: https://1asi0730-2610-10215.github.io/Landing-Page/
+
+pasos para el despliegue:
+
+1. **Creación del Repositorio en GitHub:** Iniciamos creando un repositorio dedicado en GitHub para nuestro proyecto de landing page.
+2. **Configuración de la Rama de despliegue:** Aseguramos que la rama principal del repositorio se llamara `gh-pages`, ya que GitHub Pages toma esta rama como base para el despliegue automático.
+3. **Generación del Enlace de GitHub Pages:** Navegamos a la sección "Pages" en la configuración del repositorio en GitHub. Configuramos la fuente de GitHub Pages para que tomara el contenido de la rama `gh-pages`.
+4. **Despliegue Automático:** GitHub Pages automáticamente detectó los cambios en la rama `gh-pages` y desplegó la landing page en la URL proporcionada por GitHub Pages.
+   
+![Despliegue-landing-page](./images/despliegue-landing.png)
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+Durante el Sprint 1, el equipo de desarrollo en implementar todas las funcionalidades de la landing page y la realización del documento.
+
+#### Colaboración y Desarrollo de Actividades
+
+1. **Asignación de Tareas**:
+
+![evidencia-trello](./images/evidencia-trello.png)
+
+2. **Evidencia de commits**:
+
+Repositorio:
+
+**Documento**
+
+![commits-documento](./images/commits-documento.png)
+
+**Landing Page**
+
+![commits-sprint-1](./images/commits-sprint-1.png)
+
+3. **Evidencia de Nertwork**:
+
+Repositorio:
+
+**Documento**
+
+![network-documento](./images/network-documento.png)
+
+**Landing Page**
+
+![nerwortk-sprint-1](./images/network-sprint-1.png)
+
+4.**Contributions**
+
+Repositorios:
+
+**Documento**
+
+![contributors-documento](./images/contributors-documento.png)
+
+**Landing Page**
+
+![contribution-sprint-1](./images/contribution-sprint-1.png)
 
