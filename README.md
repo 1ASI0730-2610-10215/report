@@ -36,27 +36,29 @@
 # Registro de Versiones del Informe
 | Versión | Fecha      | Autor(es)                 | Descripción                                             |
 |---------|------------|---------------------------|---------------------------------------------------------|
-| 0.1     | 12/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo I: Introducción                 |
-| 0.1     | 30/04/2026 | Gabriel Mendoza Palacios  | Desarrollo del capítulo II: Requirements Elicitation & Analysis   |
-| 0.1     | 18/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo III: Requirements specification |
-| 0.1     | 19/04/2026 | Rodrigo Oblitas Alcalde   | Desarrollo del capítulo VI: Landing Page                |
-| 0.1     | 19/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V                               |
-| 0.1     | 21/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capitulo IV: Wireframes                  |
+| 1.1     | 12/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo I: Introducción                 |
+| 1.2     | 30/04/2026 | Gabriel Mendoza Palacios  | Desarrollo del capítulo II: Requirements Elicitation & Analysis   |
+| 1.3     | 18/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo III: Requirements specification |
+| 1.4     | 19/04/2026 | Rodrigo Oblitas Alcalde   | Desarrollo del capítulo VI: Landing Page                |
+| 1.5     | 19/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V                               |
+| 1.6     | 21/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capitulo IV: Wireframes                  |
 
 
 
 # Project Report Collaboration Insights
-Link del repositorio: 
 
+#### Repositorio del informe del proyecto
+El informe del proyecto se encuentra alojado en el siguiente repositorio de la organización de GitHub del equipo:
 
-Insights TB1 (Todos participaron):
-<p align="left">
-  <img src="images/estad1.PNG" alt="tb1avance" width="500">
-</p>
+- 🔗 Enlace de la organización: https://github.com/1ASI0730-2610-10215
+- 🔗 Enlace de repositorios: https://github.com/orgs/1ASI0730-2610-10215/repositories
 
-<p align="left">
-  <img src="images/estad2.PNG" alt="tb1avance" width="500">
-</p>
+A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
+
+## TB1
+Para la primera entrega (TB1) se trabajó en la estructura inicial del informe, definiendo el índice y distribuyendo las secciones entre los miembros.
+
+![reporteTB1.png](./images/reporteTB1.png)
 
 
 ## Contenido
@@ -175,8 +177,10 @@ Insights TB1 (Todos participaron):
       * [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 
 # Student Outcome
+ABET – EAC - Student Outcome 5
 
-# Student Outcome
+La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos. 
+
 <table>
     <tr>
         <th>CRITERIO ESPECIFICO</th>
