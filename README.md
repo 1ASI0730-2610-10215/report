@@ -188,25 +188,46 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         <th>CONCLUSIONES</th>
     </tr>
     <tr>
-        <th> Comunica oralmente con efectividad a diferentes rangos de audiencia.</th>
+        <th> Trabaja en equipo para
+              proporcionar liderazgo en
+              forma conjunta</th>
         <td>
-          <b>Aarón Avila: TB1</b><br>
+         <b>Aarón Avila: AV1</b><br>
+         aaaaaaaaaaaaaaaaaaa<br>
+         <b>Eslander Celis: AV1</b><br>
+         Durante el desarrollo del proyecto, trabajé en equipo aportando ideas y asumiendo un rol activo en la organización de las actividades, contribuyendo al liderazgo compartido dentro del grupo. Participé en la toma de decisiones relacionadas con la definición de la startup, la problemática, los segmentos objetivos y la estructuración de los User Stories, Product Backlog e Impact Map. Además, mantuve una comunicación constante con mis compañeros, apoyando cuando era necesario y asegurando que todos estuviéramos alineados con los objetivos del proyecto.<br>
+         <b>ntegrante3: AV1</b><br>
+         aaaaaaaaaaaaaaaaaaa<br>
+         <b>ntegrante4: AV1</b><br>
+         aaaaaaaaaaaaaaaaaaa<br>
+         <b>ntegrante5: AV1</b><br>
          aaaaaaaaaaaaaaaaaaa<br>
         </td>
         <td>
-          <b>TB1</b><br>
-          En conclusión, <br><br>
+          <b>AV1</b><br>
+          El equipo logró trabajar de manera conjunta, compartiendo responsabilidades y asumiendo un liderazgo distribuido que permitió organizar mejor las actividades y tomar decisiones de forma eficiente. La participación activa de todos los integrantes facilitó la coordinación en el desarrollo de entregables como los User Stories, el Product Backlog y el Impact Map, generando un ambiente de confianza y compromiso. Esto contribuyó a mantener al equipo alineado y enfocado en los objetivos del proyecto. <br><br>
         </td>
     </tr>
     <tr>
-        <th>Comunica por escrito con efectividad a diferentes rangos de audiencia.</th>
+        <th>Crea un entorno colaborativo e
+            inclusivo, establece metas,
+            planifica tareas y cumple
+            objetivos.</th>
         <td>
-          <b>Aarón Avila: TB1</b><br>
+          <b>Aarón Avila: AV1</b><br>
           aaaaaaaaaaaaaa<br>
+          <b>Eslander Celis: AV1</b><br>
+          Contribuí a crear un entorno colaborativo e inclusivo al respetar las ideas de cada integrante y fomentar la participación de todos. Ayudé a establecer metas claras y a planificar las tareas de manera organizada, distribuyendo responsabilidades de forma equitativa. Me aseguré de cumplir con mis entregables en los tiempos acordados, lo que permitió avanzar de manera constante y alcanzar los objetivos planteados como equipo.<br>
+         <b>integrante3: AV1</b><br>
+         aaaaaaaaaaaaaaaaaaa<br>
+         <b>ntegrante4: AV1</b><br>
+         aaaaaaaaaaaaaaaaaaa<br>
+         <b>ntegrante5: AV1</b><br>
+         aaaaaaaaaaaaaaaaaaa<br>
         </td>
         <td>
-          <b>TB1:</b><br>
-          En conclucion, <br><br>
+          <b>AV1:</b><br>
+          Se consolidó un entorno colaborativo e inclusivo donde se respetaron las ideas de cada integrante y se promovió la participación equitativa. El equipo estableció metas claras, planificó las tareas de manera organizada y cumplió con los plazos establecidos, lo que permitió avanzar de forma constante. Esta dinámica de trabajo favoreció la calidad de los resultados y aseguró el cumplimiento de los objetivos propuestos. <br><br>
         </td>
     </tr>
 </table>
