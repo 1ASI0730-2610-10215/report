@@ -1344,13 +1344,13 @@ La sesión se llevó a cabo de manera colaborativa utilizando la herramienta Luc
   <img src="images/context_diagram.png" alt="Context Diagram" width="100%"/>
 </p>
 
-### 4.6.3. Software Architecture Container Diagrams
+### 4.6.3. Software Architecture Container Diagram
 
 <p align="center">
   <img src="images/container_diagram.png" alt="Container Diagram" width="100%"/>
 </p>
 
-### 4.6.3. Software Architecture Components Diagrams
+### 4.6.3. Software Architecture Components Diagram
 
 <p align="center">
   <img src="images/components_diagram.png" alt="Context Diagram" width="100%"/>
@@ -1359,6 +1359,28 @@ La sesión se llevó a cabo de manera colaborativa utilizando la herramienta Luc
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
+
+<p align="center">
+  <img src="images/class-diagram1.png" alt="Class Diagram 1" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="images/class-diagram2.png" alt="Class Diagram 2" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="images/class-diagram3.png" alt="Class Diagram 3" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="images/class-diagram4.png" alt="Class Diagram 4" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="images/class-diagram5.png" alt="Class Diagram 5" width="85%"/>
+</p>
+
+
 
 ### 4.7.2. Class Dictionary
 
