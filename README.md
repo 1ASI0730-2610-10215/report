@@ -198,10 +198,10 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
          Durante el desarrollo del proyecto, trabajé en equipo aportando ideas y asumiendo un rol activo en la organización de las actividades, contribuyendo al liderazgo compartido dentro del grupo. Participé en la toma de decisiones relacionadas con la definición de la startup, la problemática, los segmentos objetivos y la estructuración de los User Stories, Product Backlog e Impact Map. Además, mantuve una comunicación constante con mis compañeros, apoyando cuando era necesario y asegurando que todos estuviéramos alineados con los objetivos del proyecto.<br><br>
          <b>Gabriel Mendoza Palacios: AV1</b><br>
          Durante el desarrollo del proyecto, asumí un rol proactivo enfocado en el liderazgo compartido, coordinando la ejecución del análisis de requerimientos. Participé activamente en la evaluación del mercado mediante el análisis competitivo, la estructuración de entrevistas y la consolidación del Needfinding de ColdTrack. Promoví el debate constructivo y el intercambio de ideas con mis compañeros para asegurar que nuestra propuesta técnica estuviera perfectamente alineada con las necesidades logísticas de los usuarios.<br><br>
-         <b>ntegrante4: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br><br>
-         <b>ntegrante5: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
+         <b>Rodrigo Oblitas: AV1</b><br>
+         Durante el desarrollo del proyecto, asumí un rol activo en el trabajo en equipo, participando en la elaboración del Lean UX Process, incluyendo Problem Statement, Assumptions e Hypothesis, así como en el desarrollo de la Landing Page. Contribuí en la toma de decisiones y en la organización de las tareas, promoviendo la colaboración entre los integrantes y asegurando que el equipo avance de manera alineada hacia los objetivos establecidos.<br><br>
+         <b>Mathias Arechaga: AV1</b><br>
+         Durante el proyecto, participé activamente en el desarrollo de artefactos de diseño centrados en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicación. Colaboré en la coordinación de tareas relacionadas con el diseño y la experiencia de usuario, aportando ideas y apoyando al equipo para mantener una organización eficiente y un liderazgo compartido en el desarrollo del proyecto.<br>
         </td>
         <td>
           <b>AV1</b><br>
@@ -220,10 +220,10 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           Contribuí a crear un entorno colaborativo e inclusivo al respetar las ideas de cada integrante y fomentar la participación de todos. Ayudé a establecer metas claras y a planificar las tareas de manera organizada, distribuyendo responsabilidades de forma equitativa. Me aseguré de cumplir con mis entregables en los tiempos acordados, lo que permitió avanzar de manera constante y alcanzar los objetivos planteados como equipo.<br><br>
          <b>Gabriel Mendoza Palacios: AV1</b><br>
          Fomenté un ambiente de trabajo integrador al mantener una actitud receptiva frente a las propuestas del equipo y comunicarme de manera clara y constante. Me encargué de estructurar mis responsabilidades con orden, cumpliendo estrictamente con los plazos establecidos para el desarrollo de mis asignaciones. Colaboré activamente en la planificación de nuestras metas a corto plazo, ayudando a resolver bloqueos técnicos y asegurando que avanzáramos en sintonía hacia el objetivo final del proyecto.<br><br>
-         <b>ntegrante4: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br><br>
-         <b>ntegrante5: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
+         <b>Rodrigo Oblitas: AV1</b><br>
+         Contribuí a mantener un entorno colaborativo al participar activamente en la planificación del Lean UX Process y el desarrollo de la Landing Page. Organicé mis tareas de manera eficiente, cumpliendo con los plazos establecidos y apoyando en la coordinación del equipo para asegurar el cumplimiento de los objetivos propuestos.<br><br>
+         <b>Mathias Arechaga: AV1</b><br>
+         Apoyé en la creación de un entorno colaborativo mediante el desarrollo organizado de los entregables de diseño, como wireframes, mock-ups y prototipos. Planifiqué mis actividades de manera estructurada y cumplí con los tiempos establecidos, contribuyendo a que el equipo avance de forma constante y alineada con las metas del proyecto.<br>
         </td>
         <td>
           <b>AV1:</b><br>
