@@ -855,6 +855,36 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 
 ### 2.2.3. Analisis de entrevistas
 
+El proceso de entrevistas ha permitido validar las hipótesis iniciales sobre la problemática en el transporte de carga refrigerada. A través de las conversaciones con los dos segmentos objetivo, se ha identificado una brecha significativa entre las herramientas actuales y las necesidades operativas reales, lo que confirma la viabilidad y urgencia de implementar el sistema ColdTrack.
+
+A continuación, se detallan los hallazgos agrupados por segmento y los *insights* clave del estudio.
+
+#### 1. Análisis del Segmento: Personal de Logística y Operaciones
+Este grupo (representado por supervisores y jefes de operaciones como Gianelly, Gianmarco y Carlos) es el responsable de garantizar la calidad del producto y la rentabilidad del viaje. 
+
+* **El "Punto Ciego" Logístico:** La mayor frustración compartida es la pérdida de visibilidad una vez que el camión sale del centro de distribución. El monitoreo actual es altamente rudimentario (termómetros básicos, Excel) o reactivo (descarga de dataloggers al final del viaje), lo que impide tomar decisiones preventivas.
+* **Dependencia Humana y Errores:** Se depende excesivamente de la comunicación manual con el conductor para conocer el estado del viaje, lo que incrementa el riesgo de errores humanos y reportes tardíos.
+* **Requisitos Tecnológicos:** Los tres entrevistados coinciden en la necesidad de un **monitoreo centralizado y en tiempo real**. Gianmarco aporta un dato vital: la herramienta debe ser de baja complejidad de hardware y contar con notificaciones multicanal (como WhatsApp) para asegurar que las alertas sean recibidas independientemente de la aplicación que se esté utilizando.
+
+#### 2. Análisis del Segmento: Personal de Transporte
+Los conductores (representados por Edery y Fernando) son los usuarios que interactúan con el entorno físico y enfrentan las contingencias climáticas, de tráfico y mecánicas.
+
+* **Sobrecarga Cognitiva y Distracción:** Actualmente, verificar la temperatura implica un esfuerzo activo (mirar un termómetro en cabina o hacer paradas físicas). Esto representa un riesgo tanto operativo como de seguridad vial.
+* **Problemas de Conectividad (Zonas Muertas):** Ambos segmentos mencionaron la pérdida de señal en ciertas rutas del Perú. Para el conductor, esto genera aislamiento ante emergencias técnicas del sistema de refrigeración.
+* **Requisitos de Interfaz (UX/UI):** El conductor no necesita un dashboard complejo, necesita **respuestas binarias e inmediatas**. Edery destaca la necesidad de alertas sonoras progresivas e indicadores visuales por colores. La aplicación no debe requerir interacción manual constante; debe funcionar de manera pasiva y alertar solo cuando sea estrictamente necesario.
+
+---
+
+#### Insights Clave y Oportunidades para ColdTrack
+
+El cruce de información entre ambos perfiles de usuario nos arroja las siguientes conclusiones fundamentales que guiarán el desarrollo del producto:
+
+1.  **De la Reactividad a la Prevención:** Las mermas de productos (reportadas como frecuentes por ambos segmentos) ocurren por la demora en la detección. ColdTrack debe enfocar su propuesta de valor en su motor de alertas tempranas, detectando variaciones *antes* de que se rompa la cadena de frío.
+2.  **Sincronización Offline (Tolerancia a fallos de red):** Dado que las rutas peruanas presentan cortes de señal, el sistema IoT en el camión debe ser capaz de almacenar temporalmente la telemetría y sincronizarla automáticamente (enviar las alertas represadas) en cuanto recupere la conexión a internet.
+3.  **Experiencias de Usuario Asimétricas:** La plataforma debe ofrecer dos interfaces radicalmente distintas:
+    * *Para Logística (Web/Desktop):* Dashboards analíticos, trazabilidad en mapas, históricos de temperatura y reportes exportables.
+    * *Para Conductores (Móvil):* Interfaz minimalista de alto contraste, "manos libres", con alertas auditivas y códigos de colores universales (Verde = Óptimo, Rojo = Peligro).
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
