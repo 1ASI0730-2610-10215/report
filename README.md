@@ -44,6 +44,20 @@
 | 1.6     | 21/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capitulo IV: Wireframes                  |
 
 
+## Versionado de la entrega 1.0.0
+
+La version principal del informe corresponde a `1.0.0`. Para ordenar la evidencia de avance y colaboracion del equipo, el trabajo se divide en cinco subversiones documentales. Todas las ramas de trabajo deben crearse desde `develop`, mientras que `main` se conserva como rama estable de presentacion.
+
+| Version principal | Subversion | Periodo | Rama base | Objetivo documentado |
+|-------------------|------------|---------|-----------|----------------------|
+| `1.0.0` | `1.0.0-1` | 11/04/2026 - 13/04/2026 | `develop` | Estructura inicial del informe, portada, registro de versiones, indice y primeros avances de introduccion. |
+| `1.0.0` | `1.0.0-2` | 14/04/2026 - 16/04/2026 | `develop` | Desarrollo de perfiles, problema, segmentos objetivo y primeras evidencias de colaboracion. |
+| `1.0.0` | `1.0.0-3` | 17/04/2026 - 19/04/2026 | `develop` | Avance de requisitos, product backlog, product design y evidencia inicial de landing page. |
+| `1.0.0` | `1.0.0-4` | 20/04/2026 - 21/04/2026 | `develop` | Ajustes de wireframes, arquitectura, diseno de base de datos y validacion de secciones del informe. |
+| `1.0.0` | `1.0.0-5` | 22/04/2026 - 23/04/2026 | `develop` | Consolidacion del informe, revision de evidencias, capturas, colaboracion del equipo y preparacion para presentacion. |
+
+La fecha de una subversion representa el periodo academico documentado para el avance. Los commits reales deben conservar su fecha original en GitHub; si se requiere corregir el reporte de contribucion, se debe actualizar esta tabla y las evidencias del README sin reescribir ni falsificar el historial del repositorio.
+
 
 # Project Report Collaboration Insights
 
@@ -89,6 +103,8 @@ Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, 
 ## Contenido
 
 * [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+
+* [Versionado de la entrega 1.0.0](#versionado-de-la-entrega-100)
 
 * [Project Report Collaboration Insights](#project-report-collaboration-insights)
 
