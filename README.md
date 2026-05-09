@@ -55,6 +55,31 @@ El informe del proyecto se encuentra alojado en el siguiente repositorio de la o
 
 A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
 
+## Flujo de trabajo Git Flow
+
+El repositorio utiliza dos ramas principales para organizar el trabajo del equipo:
+
+- `develop`: rama de desarrollo. Cada integrante debe crear sus cambios desde esta rama, subirlos y solicitar integracion hacia `develop`.
+- `main`: rama estable de presentacion. Solo debe actualizarse cuando el trabajo en `develop` este revisado y listo para entregar.
+
+Comandos recomendados para cada integrante:
+
+```bash
+git switch develop
+git pull origin develop
+git switch -c feature/nombre-del-cambio
+```
+
+Luego de realizar cambios:
+
+```bash
+git add .
+git commit -m "feat: descripcion breve del cambio"
+git push -u origin feature/nombre-del-cambio
+```
+
+La integracion debe realizarse mediante Pull Request hacia `develop`. Cuando la version este lista para presentacion, se debe abrir un Pull Request desde `develop` hacia `main`.
+
 ## AV1
 Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, definiendo el índice y distribuyendo las secciones entre los miembros.
 
