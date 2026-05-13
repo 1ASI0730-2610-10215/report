@@ -223,6 +223,13 @@ Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, 
       * [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
       * [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
 
+* [Conclusiones](#conclusiones)
+
+  * [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  * [Video About-The-Team](#video-about-the-team)
+
+* [Bibliografía](#bibliografía)
+
 # Student Outcome
 ABET – EAC - Student Outcome 5
 
@@ -1943,4 +1950,46 @@ De esta forma, el equipo puede ejecutar la aplicación localmente con JSON Serve
 9. Se validó el acceso público a la landing page y a la Web Application.
 
 Con estos despliegues, ColdTrack cuenta con una landing page pública, una Web Application accesible en la nube y una fake API disponible para validar los flujos principales desarrollados en el Sprint 2.
+
+# Conclusiones
+
+## Conclusiones y recomendaciones
+
+Como equipo, concluimos que ColdTrack responde a una problemática real dentro de la cadena de frío: la falta de visibilidad oportuna sobre las condiciones de temperatura y humedad durante el transporte de productos sensibles. A partir de los Problem Statements definidos en Lean UX, confirmamos que los usuarios vinculados a logística, control de calidad y transporte necesitan una herramienta centralizada que reduzca la dependencia de controles manuales, permita reaccionar ante incidencias y facilite la trazabilidad de cada envío.
+
+En relación con los assumptions planteados, validamos que los segmentos objetivo valoran especialmente la supervisión en tiempo real, el registro histórico de envíos y las alertas visibles ante condiciones fuera de rango. Si bien inicialmente asumimos que la principal necesidad era solo registrar datos de temperatura, el desarrollo del producto nos permitió observar que el valor percibido aumenta cuando el sistema también organiza conductores, sensores, estados de envío, historial y evidencias operativas en una sola interfaz. Esto refuerza la importancia de diseñar ColdTrack como una plataforma de gestión y no únicamente como un panel de lectura de sensores.
+
+Respecto a los Hypothesis Statements, consideramos que los avances del Sprint 2 respaldan la hipótesis de que una aplicación web con autenticación, dashboard, registro de envíos, gestión de sensores, alertas e historial puede mejorar el control operativo de la cadena de frío. Los criterios de éxito definidos en el proceso Lean UX se contrastaron mediante la implementación y validación funcional de los flujos principales: ingreso a la aplicación, creación de usuarios, consulta de información, registro de nuevos envíos, consumo de datos desde una fake API y despliegue público de la solución. Aunque todavía se requiere una validación más profunda con usuarios reales, la evidencia obtenida demuestra que el producto ya cuenta con una base funcional para futuras iteraciones.
+
+También concluimos que la integración entre landing page, Web Application y fake API fue clave para presentar una experiencia más completa del modelo de negocio digital. La landing page permite comunicar la propuesta de valor, mientras que la aplicación desplegada en Firebase evidencia el funcionamiento operativo de ColdTrack. Además, el uso de MockAPI.io como reemplazo temporal del `db.js` local permitió simular persistencia de datos y preparar el proyecto para una futura integración con servicios backend propios.
+
+Como recomendaciones para los siguientes pasos del roadmap, proponemos priorizar la conexión con sensores reales o simuladores más cercanos al contexto operativo, incorporar roles de usuario con permisos diferenciados, mejorar los reportes exportables para supervisores y ampliar las validaciones con empresas que gestionen productos refrigerados. También recomendamos fortalecer la documentación técnica del backend futuro, definir métricas de éxito medibles sobre reducción de incidencias y ampliar las pruebas de usabilidad para asegurar que la interfaz sea clara tanto para personal administrativo como para conductores o responsables de calidad.
+
+## Video About-The-Team
+
+El video About-The-Team debe presentar al equipo FreshGuard y resumir cómo nos organizamos para desarrollar ColdTrack durante los sprints. En este material se debe explicar brevemente la participación de cada integrante, las responsabilidades asumidas, la forma en que aplicamos GitFlow para coordinar el trabajo, las principales decisiones tomadas durante el desarrollo y las competencias colaborativas fortalecidas durante el proyecto.
+
+- URL del video: pendiente por agregar.
+- Duración total: pendiente por agregar.
+- Captura del video: pendiente por agregar en `images/about-the-team.png`.
+
+# Bibliografía
+
+Axios. (2026). *Axios documentation*. Recuperado el 13 de mayo de 2026, de https://axios-http.com/
+
+Firebase. (2026). *Firebase Hosting documentation*. Recuperado el 13 de mayo de 2026, de https://firebase.google.com/docs/hosting
+
+GitHub Docs. (2026). *GitHub Pages documentation*. Recuperado el 13 de mayo de 2026, de https://docs.github.com/en/pages
+
+Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3rd ed.). O'Reilly Media.
+
+MockAPI. (2026). *MockAPI documentation*. Recuperado el 13 de mayo de 2026, de https://mockapi.io/docs
+
+PrimeTek. (2026). *PrimeVue documentation*. Recuperado el 13 de mayo de 2026, de https://primevue.org/
+
+Vue.js. (2026). *Vue.js documentation*. Recuperado el 13 de mayo de 2026, de https://vuejs.org/
+
+Vue I18n. (2026). *Vue I18n documentation*. Recuperado el 13 de mayo de 2026, de https://vue-i18n.intlify.dev/
+
+Vite. (2026). *Vite documentation*. Recuperado el 13 de mayo de 2026, de https://vite.dev/
 
