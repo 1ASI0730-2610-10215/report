@@ -42,6 +42,7 @@
 | 1.4     | 19/04/2026 | Rodrigo Oblitas Alcalde   | Desarrollo del capítulo VI: Landing Page                |
 | 1.5     | 19/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V                               |
 | 1.6     | 21/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capitulo IV: Wireframes                  |
+| 2.1     | 13/05/2026 | Aarón Avila Palacios      | Desarrollo de las evidencias de ejecución y despliegue del Sprint 2, actualización del índice e incorporación de capturas del reporte. |
 
 
 ## Versionado de la entrega 1.0.0
@@ -238,6 +239,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
              proporcionar liderazgo en
              forma conjunta</th>
         <td>
+         <b>Aarón Avila: TP1</b><br>
+        Durante la entrega TP1, asumí la responsabilidad de documentar las evidencias correspondientes al Sprint 2, especialmente las secciones de ejecución funcional y despliegue del software. Organicé la información de la Web Application, la landing page, la fake API y los entornos de despliegue para que el reporte refleje de manera clara el avance técnico alcanzado por el equipo. Además, coordiné la incorporación de capturas y referencias necesarias para sustentar el funcionamiento de ColdTrack ante la revisión del sprint.<br><br>
          <b>Aarón Avila: AV1</b><br>
         Durante el desarrollo del proyecto, trabajé de manera autónoma asumiendo un rol activo en la organización de las actividades y la gestión del proyecto, ejerciendo liderazgo en la planificación y ejecución de cada etapa. Participé en la toma de decisiones relacionadas con la definición de la startup, la identificación de la problemática, la segmentación de usuarios y la elaboración de artefactos como User Personas, Empathy Maps, As-Is Scenario Mapping y Ubiquitous Language, demostrando capacidad para dirigir el proyecto de manera integral.<br><br>
          <b>Eslander Celis: AV1</b><br>
@@ -260,6 +263,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             planifica tareas y cumple
             objetivos.</th>
         <td>
+          <b>Aarón Avila: TP1</b><br>
+         Durante la entrega TP1, contribuí a mantener un flujo de trabajo colaborativo mediante el uso de GitFlow, separando los cambios en ramas feature, integrándolos primero en develop y preparando su actualización hacia main. Esta organización permitió que las evidencias del Sprint 2 se agreguen sin afectar el trabajo previo del equipo y facilitó que los integrantes puedan revisar los avances del reporte de forma ordenada. También aseguré que las capturas agregadas quedaran correctamente vinculadas dentro del README para cumplir con los objetivos de presentación.<br><br>
           <b>Aarón Avila: AV1</b><br>
          Durante el desarrollo del proyecto, mantuve un enfoque basado en la autoevaluación y la mejora continua, considerando diferentes perspectivas en la toma de decisiones y asegurando la coherencia del trabajo realizado. Esto me permitió simular un entorno colaborativo mediante la revisión constante de los avances, organizando las tareas de manera eficiente y garantizando el cumplimiento de los objetivos y entregables dentro de los plazos establecidos.<br><br>
           <b>Eslander Celis: AV1</b><br>
