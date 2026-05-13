@@ -1834,39 +1834,39 @@ Las principales funcionalidades ejecutadas y validadas durante el Sprint 2 fuero
 
 - **Inicio de sesión**: la aplicación presenta una vista inicial de autenticación y permite ingresar con el usuario de demostración registrado en la fuente de datos. Este flujo restringe el acceso a las vistas internas hasta que exista una sesión activa.
 
-  Evidencia pendiente por agregar: `images/sprint-2-sign-in.png`
+  ![Sprint 2 sign in evidence](./images/sprint-2-sign-in.png)
 
 - **Creación de cuenta**: la aplicación permite registrar nuevos usuarios mediante el formulario de creación de cuenta. Los datos ingresados se envían a la fake API configurada, permitiendo simular el almacenamiento de usuarios.
 
-  Evidencia pendiente por agregar: `images/sprint-2-sign-up.png`
+  ![Sprint 2 sign up evidence](./images/sprint-2-sign-up.png)
 
 - **Dashboard de envíos**: luego de iniciar sesión, el usuario accede al dashboard principal, donde se visualizan métricas de envíos, alertas activas y una tabla con información operativa de los envíos registrados.
 
-  Evidencia pendiente por agregar: `images/sprint-2-dashboard.png`
+  ![Sprint 2 dashboard evidence](./images/sprint-2-dashboard.png)
 
 - **Registro de nuevo envío**: la aplicación permite crear un nuevo envío ingresando destino, conductor asignado, descripción de carga, fecha de salida y llegada estimada. Esta funcionalidad permite alimentar la fuente de datos desde la interfaz web.
 
-  Evidencia pendiente por agregar: `images/sprint-2-new-shipment.png`
+  ![Sprint 2 new shipment evidence](./images/sprint-2-new-shipment.png)
 
 - **Gestión de sensores**: se implementó una vista para revisar sensores registrados, su estado de asignación, última lectura, temperatura, humedad y acción disponible. También se incorporó la opción de registrar nuevos sensores.
 
-  Evidencia pendiente por agregar: `images/sprint-2-sensors.png`
+  ![Sprint 2 sensors evidence](./images/sprint-2-sensors.png)
 
 - **Sistema de alertas**: la aplicación muestra alertas generadas por variaciones críticas o de advertencia, permitiendo filtrar por severidad y estado. Esta vista facilita el monitoreo de incidencias durante el transporte.
 
-  Evidencia pendiente por agregar: `images/sprint-2-alerts.png`
+  ![Sprint 2 alerts evidence](./images/sprint-2-alerts.png)
 
 - **Historial de envíos**: se incorporó una vista de historial para revisar envíos completados, temperatura promedio, humedad promedio y alertas generadas.
 
-  Evidencia pendiente por agregar: `images/sprint-2-history.png`
+  ![Sprint 2 history evidence](./images/sprint-2-history.png)
 
 - **Internacionalización de interfaz**: se validó el cambio de idioma entre inglés y español mediante el selector `EN | ES`, afectando textos fijos de navegación, formularios, títulos, etiquetas y footer.
 
-  Evidencia pendiente por agregar: `images/sprint-2-i18n.png`
+  ![Sprint 2 i18n evidence](./images/sprint-2-i18n.png)
 
 - **Integración Landing Page - Web Application**: la landing page fue actualizada para que sus botones de acción redirijan hacia la aplicación web desplegada, manteniendo continuidad entre la presentación comercial del producto y el uso de la plataforma.
 
-  Evidencia pendiente por agregar: `images/sprint-2-landing-app-link.png`
+  ![Sprint 2 landing app link evidence](./images/sprint-2-landing-app-link.png)
 
 Desde el punto de vista técnico, la Web Application se implementó con JavaScript y Vue 3, utilizando Composition API, Vue Router, Vue I18n, PrimeVue y axios. La aplicación consume recursos desde una fake API expuesta públicamente, lo que permite validar el flujo de lectura y registro de información sin depender todavía de un backend propio.
 
@@ -1883,7 +1883,7 @@ La landing page se mantiene desplegada mediante **GitHub Pages**, utilizando el 
 - Rama de despliegue: `main`
 - Plataforma: GitHub Pages
 
-Evidencia pendiente por agregar: `images/sprint-2-landing-deployment.png`
+![Sprint 2 landing deployment evidence](./images/sprint-2-landing-deployment.png)
 
 **Web Application Deployment**
 
@@ -1897,7 +1897,7 @@ La Web Application de ColdTrack fue desplegada mediante **Firebase Hosting**, pe
 - Carpeta pública de despliegue: `dist`
 - Configuración SPA: redirección de rutas hacia `index.html`
 
-Evidencia pendiente por agregar: `images/sprint-2-firebase-deployment.png`
+![Sprint 2 Firebase deployment evidence](./images/sprint-2-firebase-deployment.png)
 
 **Fake API Deployment**
 
@@ -1912,7 +1912,7 @@ Para simular la persistencia y consulta de datos, se configuró una fake API pú
   - `/sensors`
   - `/alerts`
 
-Evidencia pendiente por agregar: `images/sprint-2-mockapi-resources.png`
+![Sprint 2 MockAPI resources evidence](./images/sprint-2-mockapi-resources.png)
 
 **Configuración de entorno para despliegue**
 
@@ -1923,7 +1923,7 @@ La Web Application utiliza variables de entorno para separar la configuración d
 
 De esta forma, el equipo puede ejecutar la aplicación localmente con JSON Server durante el desarrollo y compilarla para producción consumiendo la fake API desplegada.
 
-Evidencia pendiente por agregar: `images/sprint-2-env-production.png`
+![Sprint 2 production environment evidence](./images/sprint-2-env-production.png)
 
 **Pasos de despliegue ejecutados**
 
