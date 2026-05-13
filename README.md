@@ -217,6 +217,11 @@ Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, 
       * [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       * [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 
+    * [5.2.2. Sprint 2](#522-sprint-2)
+
+      * [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      * [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+
 # Student Outcome
 ABET – EAC - Student Outcome 5
 
@@ -1816,4 +1821,121 @@ Repositorios:
 **Landing Page**
 
 ![contribution-sprint-1](./images/contribution-sprint-1.png)
+
+### 5.2.2. Sprint 2
+
+Durante el Sprint 2, el equipo avanzó desde la landing page inicial hacia la integración del ecosistema ColdTrack, incorporando la Web Application desplegada, la conexión con una fake API pública y la actualización de la landing page para redirigir a los usuarios hacia la aplicación operativa. En esta entrega, las evidencias asignadas corresponden a la ejecución funcional de los principales flujos implementados y a la evidencia del despliegue de los productos desarrollados.
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+La ejecución del Sprint 2 se centró en validar que la solución ColdTrack pueda ser utilizada como una aplicación web funcional para la gestión de envíos refrigerados. La aplicación implementada permite iniciar sesión, registrar usuarios, administrar envíos, consultar sensores, revisar alertas y visualizar historial de envíos completados. Además, la landing page fue actualizada para conectar sus call-to-action con la Web Application desplegada en Firebase.
+
+Las principales funcionalidades ejecutadas y validadas durante el Sprint 2 fueron las siguientes:
+
+- **Inicio de sesión**: la aplicación presenta una vista inicial de autenticación y permite ingresar con el usuario de demostración registrado en la fuente de datos. Este flujo restringe el acceso a las vistas internas hasta que exista una sesión activa.
+
+  Evidencia pendiente por agregar: `images/sprint-2-sign-in.png`
+
+- **Creación de cuenta**: la aplicación permite registrar nuevos usuarios mediante el formulario de creación de cuenta. Los datos ingresados se envían a la fake API configurada, permitiendo simular el almacenamiento de usuarios.
+
+  Evidencia pendiente por agregar: `images/sprint-2-sign-up.png`
+
+- **Dashboard de envíos**: luego de iniciar sesión, el usuario accede al dashboard principal, donde se visualizan métricas de envíos, alertas activas y una tabla con información operativa de los envíos registrados.
+
+  Evidencia pendiente por agregar: `images/sprint-2-dashboard.png`
+
+- **Registro de nuevo envío**: la aplicación permite crear un nuevo envío ingresando destino, conductor asignado, descripción de carga, fecha de salida y llegada estimada. Esta funcionalidad permite alimentar la fuente de datos desde la interfaz web.
+
+  Evidencia pendiente por agregar: `images/sprint-2-new-shipment.png`
+
+- **Gestión de sensores**: se implementó una vista para revisar sensores registrados, su estado de asignación, última lectura, temperatura, humedad y acción disponible. También se incorporó la opción de registrar nuevos sensores.
+
+  Evidencia pendiente por agregar: `images/sprint-2-sensors.png`
+
+- **Sistema de alertas**: la aplicación muestra alertas generadas por variaciones críticas o de advertencia, permitiendo filtrar por severidad y estado. Esta vista facilita el monitoreo de incidencias durante el transporte.
+
+  Evidencia pendiente por agregar: `images/sprint-2-alerts.png`
+
+- **Historial de envíos**: se incorporó una vista de historial para revisar envíos completados, temperatura promedio, humedad promedio y alertas generadas.
+
+  Evidencia pendiente por agregar: `images/sprint-2-history.png`
+
+- **Internacionalización de interfaz**: se validó el cambio de idioma entre inglés y español mediante el selector `EN | ES`, afectando textos fijos de navegación, formularios, títulos, etiquetas y footer.
+
+  Evidencia pendiente por agregar: `images/sprint-2-i18n.png`
+
+- **Integración Landing Page - Web Application**: la landing page fue actualizada para que sus botones de acción redirijan hacia la aplicación web desplegada, manteniendo continuidad entre la presentación comercial del producto y el uso de la plataforma.
+
+  Evidencia pendiente por agregar: `images/sprint-2-landing-app-link.png`
+
+Desde el punto de vista técnico, la Web Application se implementó con JavaScript y Vue 3, utilizando Composition API, Vue Router, Vue I18n, PrimeVue y axios. La aplicación consume recursos desde una fake API expuesta públicamente, lo que permite validar el flujo de lectura y registro de información sin depender todavía de un backend propio.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se completó el despliegue de los principales productos de software del ecosistema ColdTrack: la landing page, la Web Application y la fake API utilizada como fuente de datos para la aplicación. Estos despliegues permiten validar públicamente la navegación entre productos, el consumo de datos y el funcionamiento de los flujos principales.
+
+**Landing Page Deployment**
+
+La landing page se mantiene desplegada mediante **GitHub Pages**, utilizando el repositorio de la organización como fuente del sitio estático. En el Sprint 2 se actualizó para enlazar sus call-to-action con la aplicación web desplegada.
+
+- Repositorio: https://github.com/1ASI0730-2610-10215/Landing-Page
+- URL desplegada: https://1asi0730-2610-10215.github.io/Landing-Page/
+- Rama de despliegue: `main`
+- Plataforma: GitHub Pages
+
+Evidencia pendiente por agregar: `images/sprint-2-landing-deployment.png`
+
+**Web Application Deployment**
+
+La Web Application de ColdTrack fue desplegada mediante **Firebase Hosting**, permitiendo acceso público a la interfaz operativa de la plataforma. La aplicación contiene los módulos de autenticación, dashboard, registro de envíos, sensores, alertas, historial e internacionalización.
+
+- Repositorio: https://github.com/1ASI0730-2610-10215/ColdTrack-Front
+- URL desplegada principal: https://coldtrack-front-web.web.app/
+- URL alternativa: https://coldtrack-front-web.firebaseapp.com/
+- Plataforma: Firebase Hosting
+- Comando de construcción: `npm run build`
+- Carpeta pública de despliegue: `dist`
+- Configuración SPA: redirección de rutas hacia `index.html`
+
+Evidencia pendiente por agregar: `images/sprint-2-firebase-deployment.png`
+
+**Fake API Deployment**
+
+Para simular la persistencia y consulta de datos, se configuró una fake API pública en **MockAPI.io**. Esta API funciona como reemplazo desplegado del `db.js` local durante las pruebas de producción, permitiendo consumir recursos como usuarios, envíos, conductores, sensores y alertas desde la Web Application.
+
+- URL base: https://6a0490212afe8349b4b6d716.mockapi.io/api/v1
+- Plataforma: MockAPI.io
+- Recursos esperados:
+  - `/users`
+  - `/shipments`
+  - `/drivers`
+  - `/sensors`
+  - `/alerts`
+
+Evidencia pendiente por agregar: `images/sprint-2-mockapi-resources.png`
+
+**Configuración de entorno para despliegue**
+
+La Web Application utiliza variables de entorno para separar la configuración de desarrollo y producción:
+
+- `.env.development`: apunta al entorno local `http://localhost:3000`
+- `.env.production`: apunta al endpoint público de MockAPI.io
+
+De esta forma, el equipo puede ejecutar la aplicación localmente con JSON Server durante el desarrollo y compilarla para producción consumiendo la fake API desplegada.
+
+Evidencia pendiente por agregar: `images/sprint-2-env-production.png`
+
+**Pasos de despliegue ejecutados**
+
+1. Se integraron los cambios de la aplicación en el repositorio `ColdTrack-Front` siguiendo GitFlow.
+2. Se configuraron variables de entorno para diferenciar desarrollo local y producción.
+3. Se ejecutó el build de producción con `npm run build`.
+4. Se configuró Firebase Hosting usando la carpeta `dist` como salida pública.
+5. Se habilitó el comportamiento de single-page application para redirigir rutas internas hacia `index.html`.
+6. Se desplegó la aplicación en Firebase Hosting.
+7. Se configuraron los recursos necesarios en MockAPI.io para simular el backend.
+8. Se actualizó la landing page para enlazar con la aplicación desplegada.
+9. Se validó el acceso público a la landing page y a la Web Application.
+
+Con estos despliegues, ColdTrack cuenta con una landing page pública, una Web Application accesible en la nube y una fake API disponible para validar los flujos principales desarrollados en el Sprint 2.
 
